@@ -37,9 +37,11 @@ OmniversifyFont/
 ├── sources/               # Font source files (Glyphs, UFO, etc.)
 ├── exports/               # Generated OTF, TTF, WOFF2 files
 ├── documentation/         # Design docs and specimens
-├── scripts/               # Build and validation scripts
 └── README.md
 ```
+
+### Supporting Tools
+To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](https://github.com/phaylali/FontGlyphExtractor), a dedicated tool for high-precision SVG extraction.
 
 ---
 
