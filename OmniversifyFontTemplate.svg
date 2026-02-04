@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
-     inkscape:zoom="0.72693603"
-     inkscape:cx="396.87124"
-     inkscape:cy="561.25984"
+     inkscape:zoom="0.2570107"
+     inkscape:cx="177.03543"
+     inkscape:cy="416.32508"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      showguides="true">
     <inkscape:grid
@@ -92,9 +92,11 @@
   <defs
      id="defs1" />
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="guides"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Hack;-inkscape-font-specification:'Hack, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#c3aa94;stroke:none;stroke-width:5.00032;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
@@ -145,5 +147,14 @@
          id="tspan12"
          x="-222.62515"
          y="199.39583">Ascender</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="letters">
+    <path
+       id="path1"
+       style="display:none;stroke-width:0.437223"
+       d="M 77.750241,11.037375 C 26.454624,6.6414449 -9.6694026,81.000905 29.289509,116.67472 c -3.554551,20.37164 -45.735671,48.01694 -4.672277,58.15738 37.420259,5.98618 63.149189,-30.63577 98.955848,-33.9039 37.69984,-3.91962 32.28879,-66.347505 -7.10674,-50.629685 -23.876889,17.295375 -71.307057,5.66104 -50.072919,-29.23642 19.33016,-8.21101 66.289959,3.44551 54.263329,-33.68487 C 112.32992,13.331025 92.996621,8.3772049 77.750241,11.037375 Z M 132.84008,163.19167 c -45.990589,3.97795 -82.026482,46.63905 -85.817549,91.37857 8.800313,33.85244 41.76619,59.20635 39.2211,96.43485 5.64408,106.32941 31.463369,214.22318 7.88692,320.03571 -12.83805,44.65079 -37.64932,85.21814 -68.564625,119.63586 30.444215,12.82113 53.816085,-26.00199 76.979164,-40.57449 39.02196,-40.85617 69.14623,-93.8181 74.37416,-150.69175 1.12895,-79.51223 -18.29373,-157.45846 -22.89287,-236.6358 -3.39255,-44.98495 0.38456,-90.95202 16.11642,-133.4805 6.56539,-26.56867 -3.22166,-67.33868 -37.30272,-66.10245 z" />
   </g>
 </svg>
