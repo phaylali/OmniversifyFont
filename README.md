@@ -60,7 +60,11 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ---
 
-## Added Unicodes
+## Progress (Added Unicodes)
+
+### Symbols & Numbers
+
+- [ ]
 
 ### Latin
 
@@ -70,18 +74,88 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 - [x] U0627
 
-### Tamazight
+### Tifinagh
 
-- [x] U2D4A
-- [x] U2D4B
-- [x] U2D4C
-- [x] U2D4D
-- [x] U2D4E
-- [x] U2D4F
-
----
-
-## 📄 License
+- [x] U2D30 - Tifinagh Letter Ya
+- [x] U2D31 - Tifinagh Letter Yab
+- [x] U2D32 - Tifinagh Letter Yabh
+- [x] U2D33 - Tifinagh Letter Yag
+- [x] U2D34 - Tifinagh Letter Yaghh
+- [x] U2D35 - Tifinagh Letter Berber Academy Yaj
+- [x] U2D36 - Tifinagh Letter Yaj
+- [x] U2D37 - Tifinagh Letter Yad
+- [x] U2D38 - Tifinagh Letter Yadh
+- [x] U2D39 - Tifinagh Letter Yadd
+- [x] U2D3A - Tifinagh Letter Yaddh
+- [x] U2D3B - Tifinagh Letter Yey
+- [x] U2D3C - Tifinagh Letter Yaf
+- [x] U2D3D - Tifinagh Letter Yak
+- [x] U2D3E - Tifinagh Letter Tuareg Yak
+- [x] U2D3F - Tifinagh Letter Yakhh
+- [x] U2D40 - Tifinagh Letter Yah
+- [x] U2D41 - Tifinagh Letter Berber Academy Yah
+- [x] U2D42 - Tifinagh Letter Tuareg Yah
+- [x] U2D43 - Tifinagh Letter Yahh
+- [x] U2D44 - Tifinagh Letter Yaa
+- [x] U2D45 - Tifinagh Letter Yakh
+- [x] U2D46 - Tifinagh Letter Tuareg Yakh
+- [x] U2D47 - Tifinagh Letter Yaq
+- [x] U2D48 - Tifinagh Letter Tuareg Yaq
+- [x] U2D49 - Tifinagh Letter Yi
+- [x] U2D4A - Tifinagh Letter Yazh
+- [x] U2D4B - Tifinagh Letter Ahaggar Yazh
+- [x] U2D4C - Tifinagh Letter Tuareg Yazh
+- [x] U2D4D - Tifinagh Letter Yal
+- [x] U2D4E - Tifinagh Letter Yam
+- [x] U2D4F - Tifinagh Letter Yan
+- [x] U2D50 - Tifinagh Letter Tuareg Yagn
+- [x] U2D51 - Tifinagh Letter Tuareg Yang
+- [x] U2D52 - Tifinagh Letter Yap
+- [x] U2D53 - Tifinagh Letter Yau
+- [x] U2D54 - Tifinagh Letter Yar
+- [x] U2D55 - Tifinagh Letter Yarr
+- [x] U2D56 - Tifinagh Letter Yagh
+- [x] U2D57 - Tifinagh Letter Tuareg Yagh
+- [x] U2D58 - Tifinagh Letter Ayer Yagh
+- [x] U2D59 - Tifinagh Letter Yas
+- [x] U2D5A - Tifinagh Letter Yass
+- [x] U2D5B - Tifinagh Letter Yash
+- [x] U2D5C - Tifinagh Letter Yat
+- [x] U2D5D - Tifinagh Letter Yath
+- [x] U2D5E - Tifinagh Letter Yach
+- [x] U2D5F - Tifinagh Letter Yatt
+- [x] U2D60 - Tifinagh Letter Yav
+- [x] U2D61 - Tifinagh Letter Yaw
+- [x] U2D62 - Tifinagh Letter Yay
+- [x] U2D63 - Tifinagh Letter Yaz
+- [x] U2D64 - Tifinagh Letter Tawellemet Yaz
+- [x] U2D65 - Tifinagh Letter Yazz
+- [ ] U2D66 - Tifinagh Letter Ye
+- [ ] U2D67 - Tifinagh Letter Yo
+- [ ] U2D68 - N/A
+- [ ] U2D69 - N/A
+- [ ] U2D6A - N/A
+- [ ] U2D6B - N/A
+- [ ] U2D6C - N/A
+- [ ] U2D6D - N/A
+- [ ] U2D6E - N/A
+- [ ] U2D6F - Tifinagh Modifier Letter Labialization Mark
+- [ ] U2D70 - Tifinagh Separator Mark
+- [ ] U2D71 - N/A
+- [ ] U2D72 - N/A
+- [ ] U2D73 - N/A
+- [ ] U2D74 - N/A
+- [ ] U2D75 - N/A
+- [ ] U2D76 - N/A
+- [ ] U2D77 - N/A
+- [ ] U2D78 - N/A
+- [ ] U2D79 - N/A
+- [ ] U2D7A - N/A
+- [ ] U2D7B - N/A
+- [ ] U2D7C - N/A
+- [ ] U2D7D - N/A
+- [ ] U2D7E - N/A
+- [ ] U2D7F - Tifinagh Consonant Joiner
 
 This project is licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
 
