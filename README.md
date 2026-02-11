@@ -130,32 +130,32 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [x] U2D63 - Tifinagh Letter Yaz
 - [x] U2D64 - Tifinagh Letter Tawellemet Yaz
 - [x] U2D65 - Tifinagh Letter Yazz
-- [ ] U2D66 - Tifinagh Letter Ye
-- [ ] U2D67 - Tifinagh Letter Yo
-- [ ] U2D68 - N/A
-- [ ] U2D69 - N/A
-- [ ] U2D6A - N/A
-- [ ] U2D6B - N/A
-- [ ] U2D6C - N/A
-- [ ] U2D6D - N/A
-- [ ] U2D6E - N/A
-- [ ] U2D6F - Tifinagh Modifier Letter Labialization Mark
-- [ ] U2D70 - Tifinagh Separator Mark
-- [ ] U2D71 - N/A
-- [ ] U2D72 - N/A
-- [ ] U2D73 - N/A
-- [ ] U2D74 - N/A
-- [ ] U2D75 - N/A
-- [ ] U2D76 - N/A
-- [ ] U2D77 - N/A
-- [ ] U2D78 - N/A
-- [ ] U2D79 - N/A
-- [ ] U2D7A - N/A
-- [ ] U2D7B - N/A
-- [ ] U2D7C - N/A
-- [ ] U2D7D - N/A
-- [ ] U2D7E - N/A
-- [ ] U2D7F - Tifinagh Consonant Joiner
+- [x] U2D66 - Tifinagh Letter Ye (New)
+- [x] U2D67 - Tifinagh Letter Yo (New)
+- [ ] U2D68 - N/A (Reserved)
+- [ ] U2D69 - N/A (Reserved)
+- [ ] U2D6A - N/A (Reserved)
+- [ ] U2D6B - N/A (Reserved)
+- [ ] U2D6C - N/A (Reserved)
+- [ ] U2D6D - N/A (Reserved)
+- [ ] U2D6E - N/A (Reserved)
+- [x] U2D6F - Tifinagh Modifier Letter Labialization Mark
+- [x] U2D70 - Tifinagh Separator Mark (New)
+- [ ] U2D71 - N/A (Reserved)
+- [ ] U2D72 - N/A (Reserved)
+- [ ] U2D73 - N/A (Reserved)
+- [ ] U2D74 - N/A (Reserved)
+- [ ] U2D75 - N/A (Reserved)
+- [ ] U2D76 - N/A (Reserved)
+- [ ] U2D77 - N/A (Reserved)
+- [ ] U2D78 - N/A (Reserved)
+- [ ] U2D79 - N/A (Reserved)
+- [ ] U2D7A - N/A (Reserved)
+- [ ] U2D7B - N/A (Reserved)
+- [ ] U2D7C - N/A (Reserved)
+- [ ] U2D7D - N/A (Reserved)
+- [ ] U2D7E - N/A (Reserved)
+- [x] U2D7F - Tifinagh Consonant Joiner (New)
 
 This project is licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
 
