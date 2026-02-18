@@ -1,6 +1,6 @@
 # OmniversifyFont 🖋️
 
-### 💪🏻 ***THE Font For Every Moroccan*** 💪🏻
+### 💪🏻 **_THE Font For Every Moroccan_** 💪🏻
 
 **OmniversifyFont** is a modern multilingual typeface designed to bridge cultures and scripts. It uniquely combines **Latin (English)**, **Arabic (Moroccan/Maghrebi script)**, and **Tamazight (Tifinagh script)** into a cohesive, high-performance font family.
 
@@ -55,11 +55,15 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 ## 🚀 Roadmap
 
 ### Phase 1: Foundation & Design (Current Phase)
+
 - [x] **Basic Latin Character Set** (C0 Controls and Basic Latin)
+- [ ] **Latin-1 Supplement** (Latin-1 Supplement)
 - [x] **Tifinagh Character Set** (Tifinagh)
-- [ ] **Arabic Character Set** (Arabic Supplement)
+- [ ] **Arabic Character Set** (Arabic)
+- [ ] **Currency Symbols** (Currency Symbols)
 
 ### Phase 2: Refinement & Production
+
 - [ ] **Kerning and OpenType Feature Programming**
 - [ ] **Multilingual Specimen Page**
 - [ ] **Final Production Release**
@@ -70,9 +74,15 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### ASCII (C0 Controls and Basic Latin)
 
-![alt text](images/latin-1_charset.png)
+![alt text](images/latin-0_charset.png)
 
 [ASCII+Latin Character Set](https://www.unicode.org/charts/PDF/U0000.pdf)
+
+### Latin-1 Supplement
+
+![alt text](images/wip.png)
+
+[Latin-1 Supplement Character Set](https://www.unicode.org/charts/PDF/U0080.pdf)
 
 ### Tifinagh
 
@@ -82,10 +92,15 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Arabic
 
-N/A
+![alt text](images/wip.png)
 
 [Arabic Character Set](https://www.unicode.org/charts/PDF/U0600.pdf)
 
+### Currency Symbols
+
+![alt text](images/wip.png)
+
+[Currency Symbols Character Set](https://www.unicode.org/charts/PDF/U20A0.pdf)
 
 This project is licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
 
