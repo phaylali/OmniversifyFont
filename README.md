@@ -1,6 +1,6 @@
 # OmniversifyFont 🖋️
 
-### 💪🏻 **_THE Font For Every Moroccan_** 💪🏻
+### 💪🏻 **_THE Font For Every Moroccan_** 
 
 **OmniversifyFont** is a modern multilingual typeface designed to bridge cultures and scripts. It uniquely combines **Latin (English)**, **Arabic (Moroccan/Maghrebi script)**, and **Tamazight (Tifinagh script)** into a cohesive, high-performance font family.
 
