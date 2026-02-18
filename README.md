@@ -56,11 +56,12 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Phase 1: Foundation & Design (Current Phase)
 
-- [x] **Basic Latin Character Set** (C0 Controls and Basic Latin)
-- [ ] **Latin-1 Supplement** (Latin-1 Supplement)
+- [x] **ASCII Character Set** (C0 Controls and Basic Latin)
+- [ ] **Latin-1 Character Set** (Latin-1 Supplement)
 - [x] **Tifinagh Character Set** (Tifinagh)
 - [ ] **Arabic Character Set** (Arabic)
-- [ ] **Currency Symbols** (Currency Symbols)
+- [ ] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
+- [ ] **Currency Character Set** (Currency Symbols)
 
 ### Phase 2: Refinement & Production
 
@@ -74,7 +75,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### ASCII (C0 Controls and Basic Latin)
 
-![alt text](images/latin-0_charset.png)
+![alt text](images/ascii_charset.png)
 
 [ASCII+Latin Character Set](https://www.unicode.org/charts/PDF/U0000.pdf)
 
@@ -95,6 +96,12 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 ![alt text](images/wip.png)
 
 [Arabic Character Set](https://www.unicode.org/charts/PDF/U0600.pdf)
+
+### Arabic Presentation Forms-B
+
+![alt text](images/wip.png)
+
+[Arabic Presentation Forms-B Character Set](https://www.unicode.org/charts/PDF/UFB00.pdf)
 
 ### Currency Symbols
 
