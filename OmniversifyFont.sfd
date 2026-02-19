@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1770148733
-ModificationTime: 1771345482
+ModificationTime: 1771471724
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,13 +49,13 @@ LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is lic
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -96
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 90 10 8
+WinInfo: 65056 16 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 163
+BeginChars: 1114112 164
 
 StartChar: uni0627
 Encoding: 1575 1575 0
@@ -15167,6 +15167,13 @@ EndChar
 StartChar: uni007F
 Encoding: 127 127 162
 Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniFE70
+Encoding: 65136 65136 163
+Width: 600
 Flags: HW
 LayerCount: 2
 EndChar
