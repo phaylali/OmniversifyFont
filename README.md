@@ -60,7 +60,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [ ] **Latin-1 Character Set** (Latin-1 Supplement)
 - [x] **Tifinagh Character Set** (Tifinagh)
 - [ ] **Arabic Character Set** (Arabic)
-- [ ] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
+- [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
 - [ ] **Currency Character Set** (Currency Symbols)
 
 ### Phase 2: Refinement & Production
@@ -99,7 +99,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Arabic Presentation Forms-B
 
-![alt text](images/wip.png)
+![alt text](images/arabic_pfb.png)
 
 [Arabic Presentation Forms-B Character Set](https://www.unicode.org/charts/PDF/UFB00.pdf)
 
