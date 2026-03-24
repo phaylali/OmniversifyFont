@@ -109,6 +109,14 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 [Currency Symbols Character Set](https://www.unicode.org/charts/PDF/U20A0.pdf)
 
+### Superscripts and Subscripts
+
+![alt text](images/supsub_charset.png)
+
+[Superscripts and Subscripts Character Set](https://www.unicode.org/charts/PDF/U2070.pdf)
+
+---
+
 This project is licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
 
 ---
