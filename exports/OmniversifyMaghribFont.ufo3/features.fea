@@ -1,0 +1,79 @@
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\uni2D4A \uni2D4B \uni2D4C \uni2D4E \uni2D4D \uni2D4F \uni2D30 
+	\uni2D31 \uni2D32 \uni2D33 \uni2D34 \uni2D35 \uni2D36 \uni2D37 \uni2D38 \uni2D39 
+	\uni2D3A \uni2D3B \uni2D3C \uni2D3D \uni2D3E \uni2D3F \uni2D40 \uni2D41 \uni2D42 
+	\uni2D43 \uni2D44 \uni2D45 \uni2D46 \uni2D47 \uni2D48 \uni2D49 \uni2D50 \uni2D51 
+	\uni2D52 \uni2D53 \uni2D54 \uni2D55 \uni2D56 \uni2D57 \uni2D58 \uni2D59 \uni2D5A 
+	\uni2D5B \uni2D5C \uni2D5D \uni2D5E \uni2D5F \uni2D60 \uni2D61 \uni2D62 \uni2D63 
+	\uni2D64 \uni2D65 \uni2D6F \uni2D66 \uni2D67 \uni2D70 \uni2D7F \uni0000 \space 
+	\exclam \question \zero \one \two \three \four \five \six \seven \eight \nine 
+	\quotedbl \percent \ampersand \quotesingle \parenleft \parenright \period 
+	\slash \colon \semicolon \less \equal \greater \asterisk \plus \comma \uni000D 
+	\bracketleft \backslash \bracketright \sterling \section \guillemotleft 
+	\guillemotright \mu \at \A \B \C \D \E \F \G \H \hyphen \dollar \numbersign \J \K \L \M \N 
+	\O \P \Q \R \S \T \U \V \W \X \Y \Z \asciicircum \underscore \grave \a \b \c \d \l \I \e \f \g 
+	\h \i \j \k \m \n \p \q \o \r \t \s \v \u \w \x \z \y \asciitilde \braceright \bar \braceleft 
+	\uni007F \uniFEAC \uniFEAD \uniFEAE \uniFEAF \uniFEB0 \uniFEB1 \uniFEB2 \uniFEB3 
+	\uniFEB4 \uniFEB5 \uniFEB6 \uniFEB7 \uniFEB8 \uniFEB9 \uniFEBA \uniFEBB \uniFEBC 
+	\uniFEBD \uniFEBE \uniFEBF \uniFEC0 \uniFEC1 \uniFEC2 \uniFEC3 \uniFEC4 \uniFEC5 
+	\uniFEC6 \uniFEC7 \uniFEC8 \uniFEC9 \uniFECA \uniFECB \uniFECC \uniFECD \uniFECE 
+	\uniFECF \uniFED0 \uniFED1 \uniFED2 \uniFED3 \uniFED4 \uniFED5 \uniFED6 \uniFED7 
+	\uniFED8 \uniFED9 \uniFEDA \uniFEDB \uniFEDC \uniFEDD \uniFEDE \uniFEDF \uniFEE0 
+	\uniFEE1 \uniFEE2 \uniFEF0 \uniFEF1 \uniFEF2 \uniFEF3 \uniFEF4 \uniFEF5 \uniFEF6 
+	\uniFEF7 \uniFEF8 \uniFEF9 \uniFEFA \uniFEFB \uniFEFC \uniFEE3 \uniFEE4 \uniFEE5 
+	\uniFEE6 \uniFEE7 \uniFEE8 \uniFEE9 \uniFEEA \uniFEEB \uniFEEC \uniFEED \uniFEEE 
+	\uniFEEF \uniFEAB \uniFEAA \uniFEA9 \uniFEA8 \uniFEA7 \uniFEA6 \uniFEA5 \uniFEA4 
+	\uniFEA3 \uniFEA2 \uniFEA1 \uniFEA0 \uniFE9F \uniFE9E \uniFE9D \uniFE9C \uniFE9B 
+	\uniFE9A \uniFE99 \uniFE98 \uniFE97 \uniFE96 \uniFE95 \uniFE94 \uniFE93 \uniFE92 
+	\uniFE91 \uniFE90 \uniFE8F \uniFE8E \uniFE8D \uniFE8C \uniFE8B \uniFE8A \uniFE89 
+	\uniFE88 \uniFE87 \uniFE86 \uniFE85 \uniFE83 \uniFE82 \uniFE81 \uniFE80 \uniFE84 
+	\uniFE7F \uniFE7E \uniFE7D \uniFE7C \uniFE7B \uniFE7A \uniFE79 \uniFE78 \uniFE77 
+	\uniFE76 \uniFE74 \uniFE73 \uniFE72 \uniFE71 \uniFE70 \uni0600 \uni0601 \uni0602 
+	\uni0603 \uni0604 \uni0605 \uni0606 \uni0607 \uni0608 \uni0609 \uni060A \uni060B 
+	\uni060C \uni060D \uni060E \uni060F \uni0610 \uni0611 \uni0612 \uni0613 \uni0614 
+	\uni0615 \uni0616 \uni0617 \uni0618 \uni0619 \uni061A \uni061B \uni061C \uni061D 
+	\uni061E \uni061F \uni0620 \uni0621 \uni0622 \uni0623 \uni0624 \uni0625 \uni0626 
+	\uni0627 \uni0628 \uni0629 \uni062A \uni062B \uni062C \uni062D \uni062E \uni062F 
+	\uni0630 \uni0631 \uni0632 \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 \uni0638 
+	\uni0639 \uni063A \uni0640 \uni0641 \uni0642 \uni0643 \uni0644 \uni0645 \uni0646 
+	\uni0647 \uni0648 \uni0649 \uni064A \uni064B \uni064C \uni064D \uni064E \uni064F 
+	\uni0650 \uni0651 \uni0652 \uni0653 \uni0654 \uni0655 \uni0656 \uni0657 \uni0658 
+	\uni0659 \uni065A \uni065B \uni065C \uni065D \uni065E \uni065F \uni0660 \uni0661 
+	\uni0662 \uni0663 \uni0664 \uni0665 \uni0666 \uni0667 \uni0668 \uni0669 \uni066A 
+	\uni066B \uni066C \uni066D \uni066E \uni066F \uni0670 \uni0671 \uni0672 \uni0673 
+	\uni0674 \uni0675 \uni0676 \uni0677 \uni0678 \uni0679 \uni067A \uni067B \uni067C 
+	\uni067D \uni067E \uni067F \uni0680 \uni0681 \uni0682 \uni0683 \uni0684 \uni0685 
+	\uni0686 \uni0687 \uni0688 \uni0689 \uni068A \uni068B \uni068C \uni068D \uni068E 
+	\uni068F \uni0690 \uni0691 \uni0692 \uni0693 \uni0694 \uni0695 \uni0696 \uni0697 
+	\uni0698 \uni0699 \uni069A \uni069B \uni069C \uni069D \uni069E \uni069F \uni06A0 
+	\uni06A1 \uni06A2 \uni06A3 \uni06A4 \uni06A5 \uni06A6 \uni06A7 \uni06A8 \uni06A9 
+	\uni06AA \uni06AB \uni06AC \uni06AD \uni06AE \uni06B0 \uni06B1 \uni06B2 \uni06B3 
+	\uni06B4 \uni06B5 \uni06B6 \uni06B7 \uni06B8 \uni06B9 \uni06BA \uni06BB \uni06BC 
+	\uni06BD \uni06BE \uni06BF \uni06C0 \uni06C1 \uni06C2 \uni06C3 \uni06C4 \uni06C5 
+	\uni06C6 \uni06C7 \uni06C8 \uni06C9 \uni06CA \uni06CB \uni06CC \uni06CD \uni06CE 
+	\uni06CF \uni06D0 \uni06D1 \uni06D2 \uni06D3 \uni06D4 \uni06D5 \uni06D6 \uni06D7 
+	\uni06D8 \uni06D9 \uni06DA \uni06DB \uni06DC \uni06DD \uni06DE \uni06DF \uni06E0 
+	\uni06E1 \uni06E2 \uni06E3 \uni06E4 \uni06E5 \uni06E6 \uni06E7 \uni06E8 \uni06E9 
+	\uni06EA \uni06EB \uni06EC \uni06ED \uni06EE \uni06EF \uni06F0 \uni06F1 \uni06F2 
+	\uni06F3 \uni06F4 \uni06F5 \uni06F6 \uni06F7 \uni06F8 \uni06F9 \uni06FA \uni06FB 
+	\uni06FC \uni06FD \uni06FE \uni06FF \uni00A0 \uni2070 \uni2071 \uni2074 \uni2075 
+	\uni2076 \uni2077 \uni2078 \uni2079 \uni207B \uni207C \uni207D \uni207E \uni207F 
+	\uni2080 \uni2081 \uni2082 \uni2083 \uni2084 \uni2085 \uni2086 \uni2087 \uni2088 
+	\uni2089 \uni208A \uni208B \uni208C \uni208D \uni208E \uni2090 \uni2091 \uni2092 
+	\uni2093 \uni2094 \uni2095 \uni2096 \uni2097 \uni2098 \uni2099 \uni209A \uni209B 
+	\uni209C \uni207A \uni00B9 \uni00B2 \uni00B3 \uni0002 \Agrave \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
