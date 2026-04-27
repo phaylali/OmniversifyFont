@@ -81,7 +81,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Latin-1 Supplement
 
-![alt text](images/wip.png)
+![alt text](images/latin-1_charset.webp)
 
 [Latin-1 Supplement Character Set](https://www.unicode.org/charts/PDF/U0080.pdf)
 
