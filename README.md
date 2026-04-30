@@ -57,7 +57,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 ### Phase 1: Foundation & Design (Current Phase)
 
 - [x] **ASCII Character Set** (C0 Controls and Basic Latin)
-- [ ] **Latin-1 Character Set** (Latin-1 Supplement)
+- [x] **Latin-1 Character Set** (Latin-1 Supplement)
 - [x] **Tifinagh Character Set** (Tifinagh)
 - [ ] **Arabic Character Set** (Arabic)
 - [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
