@@ -71,7 +71,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ---
 
-## Progress (Added Unicodes)
+## Work In Progress (Added Unicodes)
 
 ### ASCII (C0 Controls and Basic Latin)
 
