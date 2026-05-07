@@ -60,6 +60,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [x] **Latin-1 Character Set** (Latin-1 Supplement)
 - [x] **Tifinagh Character Set** (Tifinagh)
 - [ ] **Arabic Character Set** (Arabic)
+- [ ] **Arabic Character Set Forms-A** (Arabic Presentation Forms-A)
 - [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
 - [ ] **Currency Character Set** (Currency Symbols)
 
@@ -96,6 +97,12 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 ![alt text](images/wip.png)
 
 [Arabic Character Set](https://www.unicode.org/charts/PDF/U0600.pdf)
+
+### Arabic Presentation Forms-A
+
+![alt text](images/wip.png)
+
+[Arabic Presentation Forms-A Character Set](https://www.unicode.org/charts/PDF/UFB50.pdf)
 
 ### Arabic Presentation Forms-B
 
