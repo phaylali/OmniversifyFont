@@ -101,13 +101,13 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Arabic Presentation Forms-A
 
-![alt text](images/wip.png)
+![Arabic Presentation Forms-A Character Set](images/arabic-pfa_charset.png)
 
 [Arabic Presentation Forms-A Character Set](https://www.unicode.org/charts/PDF/UFB50.pdf)
 
 ### Arabic Presentation Forms-B
 
-![alt text](images/arabic_pfb.png)
+![Arabic Presentation Forms-B Character Set](images/arabic-pfb_charset.png)
 
 [Arabic Presentation Forms-B Character Set](https://www.unicode.org/charts/PDF/UFB00.pdf)
 
