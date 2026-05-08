@@ -60,7 +60,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [x] **Latin-1 Character Set** (Latin-1 Supplement)
 - [x] **Tifinagh Character Set** (Tifinagh)
 - [x] **Arabic Character Set** (Arabic)
-- [ ] **Arabic Character Set Forms-A** (Arabic Presentation Forms-A)
+- [x] **Arabic Character Set Forms-A** (Arabic Presentation Forms-A)
 - [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
 - [ ] **Currency Character Set** (Currency Symbols)
 
