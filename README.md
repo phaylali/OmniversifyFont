@@ -64,7 +64,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
 - [ ] **Currency Character Set** (Currency Symbols)
 
-### Phase 2: Refinement & Production
+### Phase 2: Refinement & Production (Soon)
 
 - [ ] **Kerning and OpenType Feature Programming**
 - [ ] **Multilingual Specimen Page**
