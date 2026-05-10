@@ -1,0 +1,69 @@
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\uni2D4A \uni2D4B \uni2D4C \uni2D4E \uni2D4D \uni2D4F \uni2D30 
+	\uni2D31 \uni2D32 \uni2D33 \uni2D34 \uni2D35 \uni2D36 \uni2D37 \uni2D38 \uni2D39 
+	\uni2D3A \uni2D3B \uni2D3C \uni2D3D \uni2D3E \uni2D3F \uni2D40 \uni2D41 \uni2D42 
+	\uni2D43 \uni2D44 \uni2D45 \uni2D46 \uni2D47 \uni2D48 \uni2D49 \uni2D50 \uni2D51 
+	\uni2D52 \uni2D53 \uni2D54 \uni2D55 \uni2D56 \uni2D57 \uni2D58 \uni2D59 \uni2D5A 
+	\uni2D5B \uni2D5C \uni2D5D \uni2D5E \uni2D5F \uni2D60 \uni2D61 \uni2D62 \uni2D63 
+	\uni2D64 \uni2D65 \uni2D6F \uni2D66 \uni2D67 \uni2D70 \uni2D7F \uni0000 \space 
+	\exclam \question \zero \one \two \three \four \five \six \seven \eight \nine 
+	\quotedbl \percent \ampersand \quotesingle \parenleft \parenright \period 
+	\slash \colon \semicolon \less \equal \greater \asterisk \plus \comma \uni000D 
+	\bracketleft \backslash \bracketright \sterling \section \guillemotleft 
+	\guillemotright \mu \at \A \B \C \D \E \F \G \H \hyphen \dollar \numbersign \J \K \L \M \N 
+	\O \P \Q \R \S \T \U \V \W \X \Y \Z \asciicircum \underscore \grave \a \b \c \d \l \I \e \f \g 
+	\h \i \j \k \m \n \p \q \o \r \t \s \v \u \w \x \z \y \asciitilde \braceright \bar \braceleft 
+	\uni007F \uniFEAC \uniFEAD \uniFEAE \uniFEAF \uniFEB0 \uniFEB1 \uniFEB2 \uniFEB3 
+	\uniFEB4 \uniFEB5 \uniFEB6 \uniFEB7 \uniFEB8 \uniFEB9 \uniFEBA \uniFEBB \uniFEBC 
+	\uniFEBD \uniFEBE \uniFEBF \uniFEC0 \uniFEC1 \uniFEC2 \uniFEC3 \uniFEC4 \uniFEC5 
+	\uniFEC6 \uniFEC7 \uniFEC8 \uniFEC9 \uniFECA \uniFECB \uniFECC \uniFECD \uniFECE 
+	\uniFECF \uniFED0 \uniFED1 \uniFED2 \uniFED3 \uniFED4 \uniFED5 \uniFED6 \uniFED7 
+	\uniFED8 \uniFED9 \uniFEDA \uniFEDB \uniFEDC \uniFEDD \uniFEDE \uniFEDF \uniFEE0 
+	\uniFEE1 \uniFEE2 \uniFEF0 \uniFEF1 \uniFEF2 \uniFEF3 \uniFEF4 \uniFEF5 \uniFEF6 
+	\uniFEF7 \uniFEF8 \uniFEF9 \uniFEFA \uniFEFB \uniFEFC \uniFEE3 \uniFEE4 \uniFEE5 
+	\uniFEE6 \uniFEE7 \uniFEE8 \uniFEE9 \uniFEEA \uniFEEB \uniFEEC \uniFEED \uniFEEE 
+	\uniFEEF \uniFEAB \uniFEAA \uniFEA9 \uniFEA8 \uniFEA7 \uniFEA6 \uniFEA5 \uniFEA4 
+	\uniFEA3 \uniFEA2 \uniFEA1 \uniFEA0 \uniFE9F \uniFE9E \uniFE9D \uniFE9C \uniFE9B 
+	\uniFE9A \uniFE99 \uniFE98 \uniFE97 \uniFE96 \uniFE95 \uniFE94 \uniFE93 \uniFE92 
+	\uniFE91 \uniFE90 \uniFE8F \uniFE8E \uniFE8D \uniFE8C \uniFE8B \uniFE8A \uniFE89 
+	\uniFE88 \uniFE87 \uniFE86 \uniFE85 \uniFE83 \uniFE82 \uniFE81 \uniFE80 \uniFE84 
+	\uniFE7F \uniFE7E \uniFE7D \uniFE7C \uniFE7B \uniFE7A \uniFE79 \uniFE78 \uniFE77 
+	\uniFE76 \uniFE74 \uniFE73 \uniFE72 \uniFE71 \uniFE70 \uni060C \uni060D \uni0615 
+	\uni061B \uni061F \uni0621 \uni0622 \uni0623 \uni0624 \uni0625 \uni0626 \uni0627 
+	\uni0628 \uni0629 \uni062A \uni062B \uni062C \uni062D \uni062E \uni062F \uni0630 
+	\uni0631 \uni0632 \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 \uni0638 \uni0639 
+	\uni063A \uni0640 \uni0641 \uni0642 \uni0643 \uni0644 \uni0645 \uni0646 \uni0647 
+	\uni0648 \uni0649 \uni064A \uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 
+	\uni0651 \uni0652 \uni0653 \uni0654 \uni0655 \uni0656 \uni0658 \uni0660 \uni0661 
+	\uni0662 \uni0663 \uni0664 \uni0665 \uni0666 \uni0667 \uni0668 \uni0669 \uni066A 
+	\uni066B \uni066C \uni066D \uni066E \uni066F \uni0670 \uni0679 \uni067E \uni0686 
+	\uni0688 \uni0691 \uni0698 \uni06A1 \uni06A4 \uni06A9 \uni06BA \uni06BE \uni06C1 
+	\uni06C2 \uni06C3 \uni06CC \uni06D4 \uni00A0 \uni2070 \uni2071 \uni2074 \uni2075 
+	\uni2076 \uni2077 \uni2078 \uni2079 \uni207B \uni207C \uni207D \uni207E \uni207F 
+	\uni2080 \uni2081 \uni2082 \uni2083 \uni2084 \uni2085 \uni2086 \uni2087 \uni2088 
+	\uni2089 \uni208A \uni208B \uni208C \uni208D \uni208E \uni2090 \uni2091 \uni2092 
+	\uni2093 \uni2094 \uni2095 \uni2096 \uni2097 \uni2098 \uni2099 \uni209A \uni209B 
+	\uni209C \uni207A \uni00B9 \uni00B2 \uni00B3 \uni0002 \Agrave \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \exclamdown \cent \currency 
+	\yen \brokenbar \dieresis \copyright \ordfeminine \logicalnot \uni00AD 
+	\registered \macron \degree \plusminus \acute \paragraph \periodcentered 
+	\cedilla \ordmasculine \onequarter \onehalf \threequarters \questiondown 
+	\uni06AF \uni0671 \uniFB51 \uniFB57 \uniFB58 \uniFB59 \uniFB67 \uniFB68 \uniFB69 
+	\uniFB6B \uniFB6C \uniFB6D \uniFB7B \uniFB7C \uniFB7D \uniFB89 \uniFB8B \uniFB8D 
+	\uniFB8F \uniFB90 \uniFB91 \uniFB93 \uniFB94 \uniFB95 \uniFB9F \uniFBAB \uniFBAC 
+	\uniFBAD \uniFBB2 \uniFBB3 \uniFBB4 \uniFBB5 \uniFBB6 \uniFBB7 \uniFBB8 \uniFBB9 
+	\uniFBBD \uniFBBE ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

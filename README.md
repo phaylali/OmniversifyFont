@@ -123,6 +123,12 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 [Superscripts and Subscripts Character Set](https://www.unicode.org/charts/PDF/U2070.pdf)
 
+### General Punctuation
+
+![General Punctuation Character Set](images/general-pun_charset.webp)
+
+[General Punctuation Character Set](https://www.unicode.org/charts/PDF/U2000.pdf)
+
 ---
 
 This project is licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
