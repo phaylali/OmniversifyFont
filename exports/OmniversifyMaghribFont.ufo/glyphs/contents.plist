@@ -1126,5 +1126,13 @@
     <string>uniF_B_B_D_.glif</string>
     <key>uniFBBE</key>
     <string>uniF_B_B_E_.glif</string>
+    <key>uni2010</key>
+    <string>uni2010.glif</string>
+    <key>figuredash</key>
+    <string>figuredash.glif</string>
+    <key>quotedblleft</key>
+    <string>quotedblleft.glif</string>
+    <key>quotedblright</key>
+    <string>quotedblright.glif</string>
   </dict>
 </plist>

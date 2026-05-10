@@ -414,7 +414,7 @@
             <key>position</key>
             <integer>299</integer>
             <key>width</key>
-            <integer>43</integer>
+            <integer>42</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -424,9 +424,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>420</integer>
+            <integer>416</integer>
             <key>width</key>
-            <integer>29</integer>
+            <integer>31</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -435,7 +441,13 @@
             <key>position</key>
             <integer>20</integer>
             <key>width</key>
-            <integer>76</integer>
+            <integer>77</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>20</integer>
+            <key>width</key>
+            <integer>56</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -445,15 +457,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>265</integer>
+            <integer>266</integer>
             <key>width</key>
-            <integer>43</integer>
+            <integer>42</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>467</integer>
+            <integer>488</integer>
             <key>width</key>
-            <integer>76</integer>
+            <integer>55</integer>
           </dict>
         </array>
       </dict>

@@ -54,7 +54,6 @@
       <point x="395" y="224"/>
       <point x="404" y="224"/>
       <point x="416" y="222" type="curve"/>
-      <point x="416" y="222" type="line"/>
       <point x="422" y="221"/>
       <point x="427" y="218"/>
       <point x="432" y="215" type="curve" smooth="yes"/>
@@ -252,15 +251,27 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>135</integer>
+            <integer>0</integer>
             <key>width</key>
-            <integer>36</integer>
+            <integer>21</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>138</integer>
+            <integer>135</integer>
             <key>width</key>
-            <integer>86</integer>
+            <integer>33</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>136</integer>
+            <key>width</key>
+            <integer>88</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -269,13 +280,19 @@
             <key>position</key>
             <integer>20</integer>
             <key>width</key>
-            <integer>52</integer>
+            <integer>53</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>272</integer>
+            <integer>270</integer>
             <key>width</key>
-            <integer>39</integer>
+            <integer>60</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>270</integer>
+            <key>width</key>
+            <integer>41</integer>
           </dict>
         </array>
       </dict>

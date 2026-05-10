@@ -200,13 +200,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>23</integer>
-            <key>width</key>
-            <integer>14</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>86</integer>
+            <integer>21</integer>
             <key>width</key>
             <integer>13</integer>
           </dict>
@@ -214,13 +208,19 @@
             <key>position</key>
             <integer>88</integer>
             <key>width</key>
-            <integer>21</integer>
+            <integer>11</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>150</integer>
             <key>width</key>
             <integer>12</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>152</integer>
+            <key>width</key>
+            <integer>21</integer>
           </dict>
         </array>
       </dict>

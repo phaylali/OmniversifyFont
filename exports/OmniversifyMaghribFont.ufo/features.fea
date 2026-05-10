@@ -60,7 +60,7 @@
 	\uniFB6B \uniFB6C \uniFB6D \uniFB7B \uniFB7C \uniFB7D \uniFB89 \uniFB8B \uniFB8D 
 	\uniFB8F \uniFB90 \uniFB91 \uniFB93 \uniFB94 \uniFB95 \uniFB9F \uniFBAB \uniFBAC 
 	\uniFBAD \uniFBB2 \uniFBB3 \uniFBB4 \uniFBB5 \uniFBB6 \uniFBB7 \uniFBB8 \uniFBB9 
-	\uniFBBD \uniFBBE ];
+	\uniFBBD \uniFBBE \uni2010 \figuredash \quotedblleft \quotedblright ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

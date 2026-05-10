@@ -314,13 +314,13 @@
             <key>position</key>
             <integer>-7</integer>
             <key>width</key>
-            <integer>25</integer>
+            <integer>24</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>86</integer>
             <key>width</key>
-            <integer>17</integer>
+            <integer>16</integer>
           </dict>
         </array>
         <key>vhints</key>

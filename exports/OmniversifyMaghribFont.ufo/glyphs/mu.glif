@@ -287,25 +287,19 @@
             <key>position</key>
             <integer>111</integer>
             <key>width</key>
-            <integer>6</integer>
+            <integer>5</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>116</integer>
+            <integer>301</integer>
             <key>width</key>
-            <integer>10</integer>
+            <integer>47</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>299</integer>
+            <integer>350</integer>
             <key>width</key>
-            <integer>49</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>351</integer>
-            <key>width</key>
-            <integer>56</integer>
+            <integer>58</integer>
           </dict>
         </array>
       </dict>

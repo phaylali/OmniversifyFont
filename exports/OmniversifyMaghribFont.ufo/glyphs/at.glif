@@ -75,9 +75,6 @@
       <point x="443" y="234"/>
       <point x="443" y="234" type="curve"/>
       <point x="444" y="265" type="line" smooth="yes"/>
-      <point x="444" y="265" type="line" smooth="yes"/>
-      <point x="444" y="265" type="line"/>
-      <point x="444" y="265" type="line" smooth="yes"/>
       <point x="442" y="279"/>
       <point x="443" y="285"/>
       <point x="438" y="307" type="curve" smooth="yes"/>
@@ -363,6 +360,12 @@
           </dict>
           <dict>
             <key>position</key>
+            <integer>143</integer>
+            <key>width</key>
+            <integer>61</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>404</integer>
             <key>width</key>
             <integer>46</integer>
@@ -390,9 +393,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>444</integer>
+            <integer>443</integer>
             <key>width</key>
-            <integer>53</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>

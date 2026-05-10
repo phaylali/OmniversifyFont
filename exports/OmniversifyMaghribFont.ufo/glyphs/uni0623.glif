@@ -9,6 +9,21 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>757</integer>
+            <key>width</key>
+            <integer>37</integer>
+          </dict>
+        </array>
         <key>vhints</key>
         <array>
           <dict>
@@ -25,9 +40,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>84</integer>
+            <integer>85</integer>
             <key>width</key>
-            <integer>49</integer>
+            <integer>45</integer>
           </dict>
         </array>
       </dict>

@@ -313,15 +313,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>162</integer>
+            <integer>159</integer>
             <key>width</key>
-            <integer>15</integer>
+            <integer>16</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>240</integer>
+            <integer>241</integer>
             <key>width</key>
-            <integer>21</integer>
+            <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>

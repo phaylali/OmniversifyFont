@@ -73,7 +73,7 @@
             <key>position</key>
             <integer>256</integer>
             <key>width</key>
-            <integer>101</integer>
+            <integer>102</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -82,7 +82,7 @@
             <key>position</key>
             <integer>38</integer>
             <key>width</key>
-            <integer>102</integer>
+            <integer>101</integer>
           </dict>
         </array>
       </dict>

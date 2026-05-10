@@ -195,10 +195,8 @@
       <point x="141" y="102"/>
     </contour>
     <contour>
-      <point x="74" y="-3" type="line"/>
-      <point x="73" y="-3" type="line" smooth="yes"/>
-      <point x="73" y="-3" type="line"/>
       <point x="74" y="-3" type="line" smooth="yes"/>
+      <point x="73" y="-3" type="line" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -215,15 +213,21 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>-2</integer>
+            <integer>-3</integer>
             <key>width</key>
-            <integer>4</integer>
+            <integer>5</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>80</integer>
+            <integer>79</integer>
             <key>width</key>
-            <integer>22</integer>
+            <integer>23</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>87</integer>
+            <key>width</key>
+            <integer>15</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -233,12 +237,6 @@
             <integer>41</integer>
             <key>width</key>
             <integer>15</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>146</integer>
-            <key>width</key>
-            <integer>17</integer>
           </dict>
         </array>
       </dict>

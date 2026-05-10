@@ -288,6 +288,12 @@
             <key>width</key>
             <integer>51</integer>
           </dict>
+          <dict>
+            <key>position</key>
+            <integer>287</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
         </array>
         <key>vhints</key>
         <array>
@@ -295,7 +301,7 @@
             <key>position</key>
             <integer>26</integer>
             <key>width</key>
-            <integer>51</integer>
+            <integer>50</integer>
           </dict>
           <dict>
             <key>position</key>

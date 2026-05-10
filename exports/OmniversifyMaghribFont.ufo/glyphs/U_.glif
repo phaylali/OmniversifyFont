@@ -158,7 +158,6 @@
     </contour>
     <contour>
       <point x="41" y="172" type="line"/>
-      <point x="41" y="172" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -172,6 +171,12 @@
             <integer>3</integer>
             <key>width</key>
             <integer>48</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -192,13 +197,13 @@
             <key>position</key>
             <integer>53</integer>
             <key>width</key>
-            <integer>43</integer>
+            <integer>42</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>326</integer>
+            <integer>329</integer>
             <key>width</key>
-            <integer>46</integer>
+            <integer>43</integer>
           </dict>
         </array>
       </dict>

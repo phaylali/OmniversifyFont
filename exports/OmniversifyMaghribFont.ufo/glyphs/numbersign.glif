@@ -430,21 +430,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>0</integer>
+            <integer>1</integer>
             <key>width</key>
-            <integer>22</integer>
+            <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>215</integer>
+            <integer>212</integer>
             <key>width</key>
             <integer>40</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>316</integer>
+            <integer>314</integer>
             <key>width</key>
-            <integer>40</integer>
+            <integer>39</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -460,6 +460,18 @@
             <integer>242</integer>
             <key>width</key>
             <integer>56</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>249</integer>
+            <key>width</key>
+            <integer>70</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>355</integer>
+            <key>width</key>
+            <integer>71</integer>
           </dict>
         </array>
       </dict>

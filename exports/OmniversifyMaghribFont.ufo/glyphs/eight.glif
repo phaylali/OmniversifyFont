@@ -339,13 +339,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1</integer>
-            <key>width</key>
-            <integer>2</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>285</integer>
+            <integer>286</integer>
             <key>width</key>
             <integer>76</integer>
           </dict>
@@ -368,7 +362,7 @@
             <key>position</key>
             <integer>42</integer>
             <key>width</key>
-            <integer>31</integer>
+            <integer>30</integer>
           </dict>
           <dict>
             <key>position</key>

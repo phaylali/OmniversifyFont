@@ -199,7 +199,6 @@
     </contour>
     <contour>
       <point x="208" y="0" type="line"/>
-      <point x="208" y="0" type="line"/>
     </contour>
     <contour>
       <point x="194" y="305" type="curve" smooth="yes"/>
@@ -325,7 +324,7 @@
             <key>position</key>
             <integer>305</integer>
             <key>width</key>
-            <integer>41</integer>
+            <integer>42</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -335,15 +334,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>544</integer>
-            <key>width</key>
-            <integer>16</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>561</integer>
             <key>width</key>
             <integer>4</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>

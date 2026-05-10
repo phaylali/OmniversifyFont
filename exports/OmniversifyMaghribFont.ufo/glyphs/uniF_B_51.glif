@@ -21,7 +21,6 @@
       <point x="157" y="676"/>
       <point x="155" y="681" type="curve"/>
       <point x="69" y="681" type="line"/>
-      <point x="69" y="681" type="line" smooth="yes"/>
       <point x="59" y="681"/>
       <point x="49" y="681"/>
       <point x="42" y="678" type="curve" smooth="yes"/>
@@ -74,8 +73,6 @@
     </contour>
     <contour>
       <point x="165" y="705" type="line"/>
-      <point x="165" y="705" type="line" smooth="yes"/>
-      <point x="165" y="704" type="line"/>
       <point x="165" y="704" type="line"/>
     </contour>
     <contour>
@@ -160,6 +157,12 @@
             <integer>0</integer>
             <key>width</key>
             <integer>51</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>

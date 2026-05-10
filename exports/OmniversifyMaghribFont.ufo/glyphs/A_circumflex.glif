@@ -393,13 +393,19 @@
             <key>position</key>
             <integer>0</integer>
             <key>width</key>
-            <integer>76</integer>
+            <integer>77</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>225</integer>
             <key>width</key>
             <integer>48</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>594</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>

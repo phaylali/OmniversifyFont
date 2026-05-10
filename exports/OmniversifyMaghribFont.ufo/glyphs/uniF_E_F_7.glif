@@ -335,6 +335,12 @@
             <key>width</key>
             <integer>45</integer>
           </dict>
+          <dict>
+            <key>position</key>
+            <integer>757</integer>
+            <key>width</key>
+            <integer>37</integer>
+          </dict>
         </array>
         <key>vhints</key>
         <array>
@@ -355,6 +361,12 @@
             <integer>426</integer>
             <key>width</key>
             <integer>43</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>450</integer>
+            <key>width</key>
+            <integer>82</integer>
           </dict>
           <dict>
             <key>position</key>

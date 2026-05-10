@@ -468,19 +468,19 @@
         <array>
           <dict>
             <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>56</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
             <integer>1</integer>
-            <key>width</key>
-            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>2</integer>
-            <key>width</key>
-            <integer>4</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>228</integer>
+            <integer>229</integer>
             <key>width</key>
             <integer>43</integer>
           </dict>
@@ -489,6 +489,12 @@
             <integer>343</integer>
             <key>width</key>
             <integer>54</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>343</integer>
+            <key>width</key>
+            <integer>3</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -501,15 +507,33 @@
         <array>
           <dict>
             <key>position</key>
+            <integer>21</integer>
+            <key>width</key>
+            <integer>26</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>251</integer>
             <key>width</key>
             <integer>42</integer>
           </dict>
           <dict>
             <key>position</key>
+            <integer>272</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>454</integer>
+            <key>width</key>
+            <integer>91</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>502</integer>
             <key>width</key>
-            <integer>42</integer>
+            <integer>43</integer>
           </dict>
         </array>
       </dict>

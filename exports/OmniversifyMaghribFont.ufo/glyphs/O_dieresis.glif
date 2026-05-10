@@ -312,15 +312,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>527</integer>
+            <integer>613</integer>
             <key>width</key>
-            <integer>86</integer>
+            <integer>1</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>666</integer>
             <key>width</key>
-            <integer>101</integer>
+            <integer>102</integer>
           </dict>
         </array>
       </dict>

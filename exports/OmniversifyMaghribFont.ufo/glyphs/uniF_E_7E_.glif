@@ -167,15 +167,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>23</integer>
+            <integer>21</integer>
             <key>width</key>
-            <integer>15</integer>
+            <integer>16</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>120</integer>
+            <integer>102</integer>
             <key>width</key>
-            <integer>3</integer>
+            <integer>21</integer>
           </dict>
         </array>
       </dict>

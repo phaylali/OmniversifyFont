@@ -43,8 +43,6 @@
       <point x="195" y="564"/>
       <point x="198" y="573"/>
       <point x="199" y="582" type="curve" smooth="yes"/>
-      <point x="199" y="582" type="line"/>
-      <point x="199" y="582" type="line"/>
       <point x="199" y="584" type="line" smooth="yes"/>
       <point x="199" y="585"/>
       <point x="200" y="585"/>
@@ -348,7 +346,6 @@
       <point x="82" y="525"/>
       <point x="73" y="523"/>
       <point x="65" y="519" type="curve"/>
-      <point x="65" y="519" type="line"/>
       <point x="64" y="518" type="line" smooth="yes"/>
       <point x="63" y="518"/>
       <point x="63" y="517"/>
@@ -471,9 +468,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>411</integer>
+            <integer>410</integer>
             <key>width</key>
-            <integer>22</integer>
+            <integer>25</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -485,17 +482,23 @@
             <key>position</key>
             <integer>525</integer>
             <key>width</key>
-            <integer>11</integer>
+            <integer>10</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>593</integer>
+            <integer>589</integer>
             <key>width</key>
-            <integer>16</integer>
+            <integer>25</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>37</integer>
+            <key>width</key>
+            <integer>23</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>83</integer>
@@ -510,6 +513,12 @@
           </dict>
           <dict>
             <key>position</key>
+            <integer>150</integer>
+            <key>width</key>
+            <integer>8</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>190</integer>
             <key>width</key>
             <integer>25</integer>
@@ -519,6 +528,12 @@
             <integer>199</integer>
             <key>width</key>
             <integer>19</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>241</integer>
+            <key>width</key>
+            <integer>23</integer>
           </dict>
         </array>
       </dict>

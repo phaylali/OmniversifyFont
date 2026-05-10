@@ -57,7 +57,6 @@
       <point x="129" y="-102"/>
       <point x="127" y="-102"/>
       <point x="124" y="-102" type="curve"/>
-      <point x="124" y="-102" type="line"/>
       <point x="118" y="-102"/>
       <point x="113" y="-101"/>
       <point x="106" y="-100" type="curve" smooth="yes"/>
@@ -258,9 +257,15 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-99</integer>
+            <integer>-102</integer>
             <key>width</key>
-            <integer>201</integer>
+            <integer>31</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>71</integer>
+            <key>width</key>
+            <integer>31</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -273,9 +278,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>199</integer>
+            <integer>200</integer>
             <key>width</key>
-            <integer>13</integer>
+            <integer>14</integer>
           </dict>
         </array>
       </dict>

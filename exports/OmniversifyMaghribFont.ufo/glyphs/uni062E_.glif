@@ -146,15 +146,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>82</integer>
+            <integer>-307</integer>
             <key>width</key>
-            <integer>39</integer>
+            <integer>10</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>103</integer>
+            <integer>75</integer>
             <key>width</key>
-            <integer>50</integer>
+            <integer>45</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>119</integer>
+            <key>width</key>
+            <integer>35</integer>
           </dict>
         </array>
         <key>vhints</key>
