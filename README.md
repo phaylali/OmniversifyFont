@@ -63,11 +63,18 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [x] **Arabic Character Set Forms-A** (Arabic Presentation Forms-A)
 - [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
 - [ ] **Currency Character Set** (Currency Symbols)
+- [x] **Superscripts and Subscripts** (Superscripts and Subscripts)
+- [x] **General Punctuation** (General Punctuation)
+- [x] **Mathematical Operators** (Mathematical Operators)
+- [x] **Letterlike Symbols** (Letterlike Symbols)
 
-### Phase 2: Refinement & Production (Soon)
+### Phase 2: Refinement & Production (WIP)
 
-- [ ] **Kerning and OpenType Feature Programming**
-- [ ] **Multilingual Specimen Page**
+- [ ] **OpenType Feature Programming**
+- [x] **Tifinagh Kerning**
+- [x] **Arabic Kerning**
+- [ ] **Latin Kerning**
+- [x] **Multilingual Specimen Page**
 - [ ] **Final Production Release**
 
 ---
@@ -76,19 +83,19 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### ASCII (C0 Controls and Basic Latin)
 
-![alt text](images/ascii_charset.png)
+![ASCII Character Set](images/ascii_charset.png)
 
 [ASCII+Latin Character Set](https://www.unicode.org/charts/PDF/U0000.pdf)
 
 ### Latin-1 Supplement
 
-![alt text](images/latin-1_charset.webp)
+![Latin-1 Supplement Character Set](images/latin-1_charset.webp)
 
 [Latin-1 Supplement Character Set](https://www.unicode.org/charts/PDF/U0080.pdf)
 
 ### Tifinagh
 
-![alt text](images/tifinagh_charset.png)
+![Tifinagh Character Set](images/tifinagh_charset.png)
 
 [Tifinagh Character Set](https://www.unicode.org/charts/PDF/U2D30.pdf)
 
@@ -113,21 +120,33 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Currency Symbols
 
-![alt text](images/wip.png)
+![Currency Symbols Character Set](images/currency_charset.png)
 
 [Currency Symbols Character Set](https://www.unicode.org/charts/PDF/U20A0.pdf)
 
 ### Superscripts and Subscripts
 
-![alt text](images/supsub_charset.png)
+![Superscripts and Subscripts Character Set](images/supsub_charset.png)
 
 [Superscripts and Subscripts Character Set](https://www.unicode.org/charts/PDF/U2070.pdf)
 
 ### General Punctuation
 
-![General Punctuation Character Set](images/general-pun_charset.webp)
+![General Punctuation Character Set](images/general-pun_charset.png)
 
 [General Punctuation Character Set](https://www.unicode.org/charts/PDF/U2000.pdf)
+
+### Mathematical Operators
+
+![Mathematical Operators Character Set](images/math-operators_charset.png)
+
+[Mathematical Operators Character Set](https://www.unicode.org/charts/PDF/U2200.pdf)
+
+### Letterlike Symbols
+
+![Letterlike Symbols Character Set](images/letterlike-symbols_charset.png)
+
+[Letterlike Symbols Character Set](https://www.unicode.org/charts/PDF/U2100.pdf)
 
 ---
 
