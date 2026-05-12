@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="157"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="62.7822" y="-53.2227" type="curve" smooth="yes"/>
+      <point x="49.4424" y="-53.8691"/>
+      <point x="36.0869" y="-46.541"/>
+      <point x="28.8535" y="-35.4238" type="curve" smooth="yes"/>
+      <point x="22.3477" y="-21.9424"/>
+      <point x="19.7354" y="-6.41602"/>
+      <point x="20.0352" y="8.62109" type="curve" smooth="yes"/>
+      <point x="19.665" y="18.7822"/>
+      <point x="22.2842" y="28.5635"/>
+      <point x="24.2598" y="38.4307" type="curve" smooth="yes"/>
+      <point x="28.1396" y="53.6182"/>
+      <point x="35.0645" y="68.1357"/>
+      <point x="43.3789" y="81.4521" type="curve" smooth="yes"/>
+      <point x="51.9375" y="96.4209"/>
+      <point x="66.5498" y="106.178"/>
+      <point x="80.5791" y="115.472" type="curve" smooth="yes"/>
+      <point x="103.799" y="129.771"/>
+      <point x="128.802" y="142.795"/>
+      <point x="156.129" y="146.628" type="curve"/>
+      <point x="155.634" y="145.473"/>
+      <point x="146.185" y="141.316"/>
+      <point x="142.442" y="138.646" type="curve" smooth="yes"/>
+      <point x="118.415" y="124.687"/>
+      <point x="98.2822" y="104.455"/>
+      <point x="84.0127" y="80.6523" type="curve" smooth="yes"/>
+      <point x="75.4873" y="66.3594"/>
+      <point x="72.6924" y="49.7725"/>
+      <point x="70.4512" y="33.5537" type="curve" smooth="yes"/>
+      <point x="68.3984" y="23.6885"/>
+      <point x="73.3418" y="13.8955"/>
+      <point x="82.2275" y="9.27734" type="curve" smooth="yes"/>
+      <point x="90.834" y="7.54492"/>
+      <point x="95.0205" y="-1.43262"/>
+      <point x="97.6211" y="-8.92383" type="curve" smooth="yes"/>
+      <point x="100.382" y="-16.7578"/>
+      <point x="99.6943" y="-25.2266"/>
+      <point x="95.6104" y="-32.5049" type="curve" smooth="yes"/>
+      <point x="88.4531" y="-43.7129"/>
+      <point x="76.5244" y="-52.8604"/>
+    </contour>
+  </outline>
+</glyph>
