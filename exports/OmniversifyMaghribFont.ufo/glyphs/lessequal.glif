@@ -85,7 +85,6 @@
     </contour>
     <contour>
       <point x="87.7256" y="68.7832" type="curve"/>
-      <point x="87.7256" y="68.7832" type="line"/>
       <point x="103.639" y="68.1514"/>
       <point x="119.741" y="65.9639"/>
       <point x="135.564" y="65.7207" type="curve" smooth="yes"/>
@@ -132,4 +131,26 @@
       <point x="82.4209" y="68.9941"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>10</integer>
+            <key>width</key>
+            <integer>59</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>30</integer>
+            <key>width</key>
+            <integer>6</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
