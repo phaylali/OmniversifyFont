@@ -14,8 +14,11 @@
       <point x="282.547" y="406.249"/>
       <point x="284.897" y="401.217"/>
       <point x="285.973" y="394.774" type="curve" smooth="yes"/>
-      <point x="287.853" y="381.891"/>
-      <point x="286.441" y="371.088"/>
+      <point x="286.51" y="391.094"/>
+      <point x="286.778" y="387.584"/>
+      <point x="286.778" y="384.244" type="curve" smooth="yes"/>
+      <point x="286.778" y="375.889"/>
+      <point x="285.099" y="368.596"/>
       <point x="281.741" y="362.364" type="curve" smooth="yes"/>
       <point x="277.041" y="353.642"/>
       <point x="271.604" y="346.594"/>
@@ -80,8 +83,11 @@
       <point x="256.697" y="-170.637"/>
       <point x="272.274" y="-175.869"/>
       <point x="290" y="-180.97" type="curve"/>
-      <point x="265.022" y="-181.238"/>
-      <point x="243.134" y="-179.763"/>
+      <point x="288.077" y="-180.99"/>
+      <point x="286.172" y="-181.001"/>
+      <point x="284.286" y="-181.001" type="curve" smooth="yes"/>
+      <point x="261.671" y="-181.001"/>
+      <point x="241.686" y="-179.515"/>
       <point x="224.333" y="-176.542" type="curve" smooth="yes"/>
       <point x="205.533" y="-173.32"/>
       <point x="188.682" y="-167.952"/>
@@ -98,8 +104,11 @@
       <point x="48.6182" y="12.1543"/>
       <point x="40.9639" y="38.1221"/>
       <point x="35.9951" y="64.8291" type="curve" smooth="yes"/>
-      <point x="31.0264" y="91.5361"/>
-      <point x="29.1465" y="118.646"/>
+      <point x="31.9982" y="86.3123"/>
+      <point x="30.0001" y="108.056"/>
+      <point x="30.0001" y="130.06" type="curve" smooth="yes"/>
+      <point x="30.0001" y="135.41"/>
+      <point x="30.1182" y="140.776"/>
       <point x="30.3545" y="146.157" type="curve" smooth="yes"/>
       <point x="31.5635" y="173.67"/>
       <point x="36.1963" y="200.981"/>
@@ -136,13 +145,7 @@
             <key>position</key>
             <integer>-181</integer>
             <key>width</key>
-            <integer>4</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-181</integer>
-            <key>width</key>
-            <integer>16</integer>
+            <integer>0</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -155,9 +158,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>36</integer>
+            <integer>30</integer>
             <key>width</key>
-            <integer>34</integer>
+            <integer>40</integer>
           </dict>
         </array>
       </dict>

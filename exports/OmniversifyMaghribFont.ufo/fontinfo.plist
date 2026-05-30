@@ -11,11 +11,11 @@
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>versionMinor</key>
     <integer>0</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2026, Phaylali</string>
+    <string>Copyright (c) 2026, Phaylali Omniversify.com</string>
     <key>unitsPerEm</key>
     <integer>1024</integer>
     <key>ascender</key>
@@ -25,7 +25,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>note</key>
-    <string>2026-2-3: Created with FontForge (http://fontforge.org)</string>
+    <string>2026-2-3: Created with FontForge (http://fontforge.org) by Phaylali (https://omniversify.com)</string>
     <key>openTypeHeadCreated</key>
     <string>2026/02/03 19:58:53</string>
     <key>openTypeHheaAscender</key>
@@ -129,7 +129,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.000</string>
+    <string>Version 2.000</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>

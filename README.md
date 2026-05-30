@@ -73,7 +73,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [ ] **OpenType Feature Programming**
 - [x] **Tifinagh Kerning**
 - [x] **Arabic Kerning**
-- [ ] **Latin Kerning**
+- [x] **Latin Kerning**
 - [x] **Multilingual Specimen Page**
 - [ ] **Final Production Release**
 
@@ -151,6 +151,28 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 ---
 
 This project is licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
+---
+
+## 🙏 Thanks & Credits
+
+This font draws inspiration from numerous open-source and community-driven projects. Special thanks to:
+
+- **IRCAM (Institut Royal de la Culture Amazighe)** for their pioneering work in standardizing and digitizing the Tifinagh script, having released over 25 Unicode-encoded Tifinagh fonts available for free download from [their website](https://www.ircam.ma/) and documented at [ScriptSource](https://scriptsource.org/entry/at6n5wwva8)
+
+- **Google Fonts** for providing high-quality open-source fonts like [Noto Sans Arabic](https://fonts.google.com/noto/specimen/Noto+Sans+Arabic), [Noto Sans Tifinagh](https://fonts.google.com/noto/specimen/Noto+Sans+Tifinagh), [Cairo](https://fonts.google.com/specimen/Cairo), [Roboto](https://fonts.google.com/specimen/Roboto), [Tajawal](https://fonts.google.com/specimen/Tajawal), and many others that served as technical references
+
+- **Achamel Soft** for the [Maghribi Assile font](https://www.wfonts.com/font/maghribi-assile), an important reference for Maghrebi Arabic calligraphy
+
+- **Bouazzi** for their Maghribi font contributions
+
+- **Samir Khouaja** for Maghribi font designs
+
+- **The ArabSwells** community for arabicswell_1.ttf
+
+- **Various open-source Maghribi and Tifinagh fonts** in the inspirations folder that helped shape our understanding of North African scripts
+
+- **Academic researchers** whose work like "Tifinagh & the IRCAM, Explorations in Cursiveness and Bicamelarism in the Tifinagh script" (available via Academia.edu) provided crucial context
 
 ---
 
