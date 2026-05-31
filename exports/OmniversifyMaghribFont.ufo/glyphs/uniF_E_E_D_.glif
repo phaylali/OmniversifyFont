@@ -2,6 +2,8 @@
 <glyph name="uniFEED" format="2">
   <advance width="269"/>
   <unicode hex="FEED"/>
+  <anchor x="-48" y="-317.444" name="bottom"/>
+  <anchor x="146" y="154" name="top"/>
   <outline>
     <contour>
       <point x="92" y="135" type="curve" smooth="yes"/>

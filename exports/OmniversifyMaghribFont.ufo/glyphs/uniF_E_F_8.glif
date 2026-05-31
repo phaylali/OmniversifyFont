@@ -2,6 +2,10 @@
 <glyph name="uniFEF8" format="2">
   <advance width="559"/>
   <unicode hex="FEF8"/>
+  <anchor x="96" y="0" name="bottom_lig"/>
+  <anchor x="492" y="0" name="bottom_lig"/>
+  <anchor x="97.1755" y="712.08" name="top_lig"/>
+  <anchor x="492" y="614" name="top_lig"/>
   <outline>
     <contour>
       <point x="92" y="793" type="curve" smooth="yes"/>

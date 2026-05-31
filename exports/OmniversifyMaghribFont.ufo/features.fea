@@ -8,6 +8,408 @@ languagesystem tfng dflt;
 # GPOS 
 
 
+lookup bottom_mark_lig {
+  lookupflag RightToLeft;
+  markClass [\uni064D ] <anchor 123 72> @bottom_lig;
+  markClass [\uni0650 ] <anchor 123 46> @bottom_lig;
+  markClass [\uni0655 ] <anchor 97 103> @bottom_lig;
+  markClass [\uni0656 ] <anchor 41 737> @bottom_lig;
+  pos ligature \uniFEF5 <anchor 492 -0> mark @bottom_lig 
+    ligComponent
+      <anchor 173 -0> mark @bottom_lig ;
+  pos ligature \uniFEF6 <anchor 492 0> mark @bottom_lig 
+    ligComponent
+      <anchor 173 0> mark @bottom_lig ;
+  pos ligature \uniFEF7 <anchor 492 -0> mark @bottom_lig 
+    ligComponent
+      <anchor 96 -0> mark @bottom_lig ;
+  pos ligature \uniFEF8 <anchor 492 0> mark @bottom_lig 
+    ligComponent
+      <anchor 96 0> mark @bottom_lig ;
+  pos ligature \uniFEF9 <anchor 492 -179> mark @bottom_lig 
+    ligComponent
+      <anchor 97 -98> mark @bottom_lig ;
+  pos ligature \uniFEFA <anchor 492 -179> mark @bottom_lig 
+    ligComponent
+      <anchor 97 -98> mark @bottom_lig ;
+  pos ligature \uniFEFB <anchor 492 -0> mark @bottom_lig 
+    ligComponent
+      <anchor 106 -0> mark @bottom_lig ;
+  pos ligature \uniFEFC <anchor 492 0> mark @bottom_lig 
+    ligComponent
+      <anchor 106 0> mark @bottom_lig ;
+} bottom_mark_lig;
+
+lookup top_mark_lig {
+  lookupflag RightToLeft;
+  markClass [\uni0615 ] <anchor 122 287> @top_lig;
+  markClass [\uni064B ] <anchor 123 338> @top_lig;
+  markClass [\uni064C ] <anchor 97 338> @top_lig;
+  markClass [\uni064E ] <anchor 123 363> @top_lig;
+  markClass [\uni064F \uni0652 ] <anchor 72 338> @top_lig;
+  markClass [\uni0651 ] <anchor 97 338> @top_lig;
+  markClass [\uni0653 ] <anchor 110 338> @top_lig;
+  markClass [\uni0654 ] <anchor 97 287> @top_lig;
+  markClass [\uni0658 ] <anchor 119 317> @top_lig;
+  markClass [\uni0670 ] <anchor 41 261> @top_lig;
+  pos ligature \uniFEF5 <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 110 742> mark @top_lig ;
+  pos ligature \uniFEF6 <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 110 742> mark @top_lig ;
+  pos ligature \uniFEF7 <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 97 712> mark @top_lig ;
+  pos ligature \uniFEF8 <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 97 712> mark @top_lig ;
+  pos ligature \uniFEF9 <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 106 614> mark @top_lig ;
+  pos ligature \uniFEFA <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 106 614> mark @top_lig ;
+  pos ligature \uniFEFB <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 106 614> mark @top_lig ;
+  pos ligature \uniFEFC <anchor 492 614> mark @top_lig 
+    ligComponent
+      <anchor 106 614> mark @top_lig ;
+} top_mark_lig;
+
+lookup bottom_mark {
+  lookupflag RightToLeft;
+  markClass [\uni064D ] <anchor 123 72> @bottom;
+  markClass [\uni0650 ] <anchor 123 46> @bottom;
+  markClass [\uni0655 ] <anchor 97 103> @bottom;
+  markClass [\uni0656 ] <anchor 41 737> @bottom;
+  pos base [\uniFEAC \uniFEAB \uniFEAA \uniFEA9 \uni062F \uni0630 \uniFB89 ] <anchor 20 -56> mark @bottom;
+  pos base [\uniFEAD ] <anchor -109 -318> mark @bottom;
+  pos base [\uniFEAE ] <anchor -114 -317> mark @bottom;
+  pos base [\uniFEAF ] <anchor -92 -318> mark @bottom;
+  pos base [\uniFEB0 ] <anchor -84 -317> mark @bottom;
+  pos base [\uniFEB1 \uniFEB2 \uniFEB6 \uniFEB9 \uniFEBA \uniFEBD \uniFEBE \uniFEE5 \uniFEE6 \uni0633 \uni0634 \uni0635 \uni0636 \uni0646 ] <anchor 352 -317> mark @bottom;
+  pos base [\uniFEB3 \uniFEB7 ] <anchor 184 0> mark @bottom;
+  pos base [\uniFEB4 ] <anchor 246 0> mark @bottom;
+  pos base [\uniFEB8 ] <anchor 226 0> mark @bottom;
+  pos base [\uniFEBB ] <anchor 190 -28> mark @bottom;
+  pos base [\uniFEBC \uniFEC3 \uniFEC7 ] <anchor 210 -28> mark @bottom;
+  pos base [\uniFEBF ] <anchor 200 -28> mark @bottom;
+  pos base [\uniFEC0 ] <anchor 220 -28> mark @bottom;
+  pos base [\uniFEC1 \uniFEC5 \uni0637 \uni0638 ] <anchor 292 -28> mark @bottom;
+  pos base [\uniFEC2 \uniFEC6 ] <anchor 307 -28> mark @bottom;
+  pos base [\uniFEC4 \uniFEC8 ] <anchor 230 -28> mark @bottom;
+  pos base [\uniFEC9 \uniFECD \uni0639 \uni063A ] <anchor 354 -408> mark @bottom;
+  pos base [\uniFECA \uniFECE ] <anchor 374 -408> mark @bottom;
+  pos base [\uniFECB \uniFECF ] <anchor 160 -0> mark @bottom;
+  pos base [\uniFECC \uniFED0 ] <anchor 194 0> mark @bottom;
+  pos base [\uniFED1 \uniFED2 \uni0641 \uniFB6B ] <anchor 280 0> mark @bottom;
+  pos base [\uniFED3 \uniFED7 ] <anchor 124 0> mark @bottom;
+  pos base [\uniFED4 ] <anchor 133 0> mark @bottom;
+  pos base [\uniFED5 \uniFED6 \uni0642 ] <anchor 292 -133> mark @bottom;
+  pos base [\uniFED8 \uniFEE8 ] <anchor 138 0> mark @bottom;
+  pos base [\uniFED9 \uni0643 \uni06A9 \uni06AF ] <anchor 499 -0> mark @bottom;
+  pos base [\uniFEDA \uniFB8F \uniFB93 ] <anchor 766 -15> mark @bottom;
+  pos base [\uniFEDB ] <anchor 333 -0> mark @bottom;
+  pos base [\uniFEDC ] <anchor 379 -15> mark @bottom;
+  pos base [\uniFEDD \uni0644 ] <anchor 264 -323> mark @bottom;
+  pos base [\uniFEDE ] <anchor 264 -324> mark @bottom;
+  pos base [\uniFEDF ] <anchor 87 0> mark @bottom;
+  pos base [\uniFEE0 ] <anchor 146 0> mark @bottom;
+  pos base [\uniFEE1 \uni0645 ] <anchor 74 -231> mark @bottom;
+  pos base [\uniFEE2 ] <anchor 110 -181> mark @bottom;
+  pos base [\uniFEF0 \uniFE8A ] <anchor 357 -317> mark @bottom;
+  pos base [\uniFEF1 \uniFEF2 \uni064A ] <anchor 348 -394> mark @bottom;
+  pos base [\uniFEF3 ] <anchor 123 -128> mark @bottom;
+  pos base [\uniFEF4 ] <anchor 118 -128> mark @bottom;
+  pos base [\uniFEE3 ] <anchor 201 -9> mark @bottom;
+  pos base [\uniFEE4 ] <anchor 201 -10> mark @bottom;
+  pos base [\uniFEE7 \uniFB68 ] <anchor 98 0> mark @bottom;
+  pos base [\uniFEE9 \uni0647 ] <anchor 116 0> mark @bottom;
+  pos base [\uniFEEA ] <anchor 140 0> mark @bottom;
+  pos base [\uniFEEB ] <anchor 183 -30> mark @bottom;
+  pos base [\uniFEEC ] <anchor 219 -31> mark @bottom;
+  pos base [\uniFEED ] <anchor -48 -317> mark @bottom;
+  pos base [\uniFEEE ] <anchor -41 -317> mark @bottom;
+  pos base [\uniFEEF \uniFE89 \uni0626 \uni0649 ] <anchor 358 -317> mark @bottom;
+  pos base [\uniFEA8 \uniFEA4 ] <anchor 179 -0> mark @bottom;
+  pos base [\uniFEA7 \uniFEA3 ] <anchor 172 -14> mark @bottom;
+  pos base [\uniFEA6 \uniFEA5 \uniFEA2 \uniFEA1 \uniFE9E \uniFE9D \uni062C \uni062D \uni062E ] <anchor 278 -307> mark @bottom;
+  pos base [\uniFEA0 ] <anchor 141 -128> mark @bottom;
+  pos base [\uniFE9F ] <anchor 121 -128> mark @bottom;
+  pos base [\uniFE9C \uniFE77 \uniFE71 ] <anchor 128 0> mark @bottom;
+  pos base [\uniFE9B \uniFE97 \uniFE8B ] <anchor 92 0> mark @bottom;
+  pos base [\uniFE9A \uniFE96 \uniFB67 ] <anchor 513 -0> mark @bottom;
+  pos base [\uniFE99 \uniFE95 \uni062A \uni062B \uni066E ] <anchor 440 0> mark @bottom;
+  pos base [\uniFE98 ] <anchor 118 0> mark @bottom;
+  pos base [\uniFE94 ] <anchor 192 0> mark @bottom;
+  pos base [\uniFE93 \uni0629 ] <anchor 176 0> mark @bottom;
+  pos base [\uniFE92 ] <anchor 105 -128> mark @bottom;
+  pos base [\uniFE91 ] <anchor 126 -128> mark @bottom;
+  pos base [\uniFE90 \uniFE8F \uni0628 ] <anchor 402 -128> mark @bottom;
+  pos base [\uniFE8E ] <anchor 100 -0> mark @bottom;
+  pos base [\uniFE8D \uni0627 ] <anchor 86 -0> mark @bottom;
+  pos base [\uniFE8C ] <anchor 123 0> mark @bottom;
+  pos base [\uniFE88 \uniFE87 \uni0625 ] <anchor 97 -98> mark @bottom;
+  pos base [\uniFE86 ] <anchor -22 -317> mark @bottom;
+  pos base [\uniFE85 ] <anchor -60 -317> mark @bottom;
+  pos base [\uniFE83 \uniFE81 \uni0623 ] <anchor 127 -0> mark @bottom;
+  pos base [\uniFE82 \uniFE84 \uniFB51 ] <anchor 120 -0> mark @bottom;
+  pos base [\uniFE80 \uni0621 ] <anchor 148 0> mark @bottom;
+  pos base [\uniFE7F \uniFE73 ] <anchor 84 0> mark @bottom;
+  pos base [\uniFE7E ] <anchor 72 666> mark @bottom;
+  pos base [\uniFE7D ] <anchor 104 0> mark @bottom;
+  pos base [\uniFE7C ] <anchor 97 666> mark @bottom;
+  pos base [\uniFE7B ] <anchor 123 -128> mark @bottom;
+  pos base [\uniFE7A ] <anchor 123 -128> mark @bottom;
+  pos base [\uniFE79 ] <anchor 90 0> mark @bottom;
+  pos base [\uniFE78 ] <anchor 72 676> mark @bottom;
+  pos base [\uniFE76 ] <anchor 123 691> mark @bottom;
+  pos base [\uniFE74 ] <anchor 123 -154> mark @bottom;
+  pos base [\uniFE72 ] <anchor 97 676> mark @bottom;
+  pos base [\uniFE70 ] <anchor 123 666> mark @bottom;
+  pos base [\uni0622 ] <anchor 180 -0> mark @bottom;
+  pos base [\uni0624 ] <anchor -36 -317> mark @bottom;
+  pos base [\uni0631 ] <anchor -95 -318> mark @bottom;
+  pos base [\uni0632 ] <anchor -84 -318> mark @bottom;
+  pos base [\uni0640 ] <anchor 113 0> mark @bottom;
+  pos base [\uni0648 ] <anchor -45 -317> mark @bottom;
+  pos base [\uni066F ] <anchor 315 -133> mark @bottom;
+  pos base [\uni0679 ] <anchor 446 0> mark @bottom;
+  pos base [\uni067E ] <anchor 417 -205> mark @bottom;
+  pos base [\uni0686 ] <anchor 283 -307> mark @bottom;
+  pos base [\uni0688 ] <anchor 25 -56> mark @bottom;
+  pos base [\uni0691 ] <anchor 25 -318> mark @bottom;
+  pos base [\uni0698 ] <anchor 19 -318> mark @bottom;
+  pos base [\uni06A1 \uni06A4 ] <anchor 295 0> mark @bottom;
+  pos base [\uni06BA ] <anchor 365 -317> mark @bottom;
+  pos base [\uni06BE ] <anchor 176 -30> mark @bottom;
+  pos base [\uni06C1 ] <anchor 154 -0> mark @bottom;
+  pos base [\uni06C2 ] <anchor 204 -0> mark @bottom;
+  pos base [\uni06C3 ] <anchor 210 -0> mark @bottom;
+  pos base [\uni06CC ] <anchor 386 -317> mark @bottom;
+  pos base [\uni0671 ] <anchor 152 -0> mark @bottom;
+  pos base [\uniFB57 ] <anchor 397 -205> mark @bottom;
+  pos base [\uniFB58 ] <anchor 89 -205> mark @bottom;
+  pos base [\uniFB59 ] <anchor 99 -205> mark @bottom;
+  pos base [\uniFB69 ] <anchor 114 -0> mark @bottom;
+  pos base [\uniFB6C ] <anchor 110 0> mark @bottom;
+  pos base [\uniFB6D ] <anchor 121 0> mark @bottom;
+  pos base [\uniFB7B ] <anchor 277 -307> mark @bottom;
+  pos base [\uniFB7C ] <anchor 130 -205> mark @bottom;
+  pos base [\uniFB7D ] <anchor 127 -205> mark @bottom;
+  pos base [\uniFB8B ] <anchor -51 -318> mark @bottom;
+  pos base [\uniFB8D ] <anchor -20 -318> mark @bottom;
+  pos base [\uniFB90 \uniFB94 ] <anchor 316 -0> mark @bottom;
+  pos base [\uniFB91 ] <anchor 345 -15> mark @bottom;
+  pos base [\uniFB95 ] <anchor 354 -15> mark @bottom;
+  pos base [\uniFB9F ] <anchor 352 -317> mark @bottom;
+  pos base [\uniFBAB ] <anchor 141 0> mark @bottom;
+  pos base [\uniFBAC ] <anchor 173 -30> mark @bottom;
+  pos base [\uniFBAD ] <anchor 200 -31> mark @bottom;
+} bottom_mark;
+
+lookup top_mark {
+  lookupflag RightToLeft;
+  markClass [\uni0615 ] <anchor 122 287> @top;
+  markClass [\uni064B ] <anchor 123 338> @top;
+  markClass [\uni064C ] <anchor 97 338> @top;
+  markClass [\uni064E ] <anchor 123 363> @top;
+  markClass [\uni064F \uni0652 ] <anchor 72 338> @top;
+  markClass [\uni0651 ] <anchor 97 338> @top;
+  markClass [\uni0653 ] <anchor 110 338> @top;
+  markClass [\uni0654 ] <anchor 97 287> @top;
+  markClass [\uni0658 ] <anchor 119 317> @top;
+  markClass [\uni0670 ] <anchor 41 261> @top;
+  pos base [\uniFEAC \uniFEAB \uni0630 ] <anchor 59 307> mark @top;
+  pos base [\uniFEAD ] <anchor 70 154> mark @top;
+  pos base [\uniFEAE ] <anchor 62 102> mark @top;
+  pos base [\uniFEAF ] <anchor 108 307> mark @top;
+  pos base [\uniFEB0 ] <anchor 88 230> mark @top;
+  pos base [\uniFEB1 \uni0633 ] <anchor 802 112> mark @top;
+  pos base [\uniFEB2 ] <anchor 826 80> mark @top;
+  pos base [\uniFEB3 ] <anchor 234 112> mark @top;
+  pos base [\uniFEB4 ] <anchor 246 73> mark @top;
+  pos base [\uniFEB5 \uniFEB6 \uni0634 ] <anchor 786 307> mark @top;
+  pos base [\uniFEB7 ] <anchor 223 307> mark @top;
+  pos base [\uniFEB8 ] <anchor 238 307> mark @top;
+  pos base [\uniFEB9 \uniFEBA \uni0635 ] <anchor 901 232> mark @top;
+  pos base [\uniFEBB \uniFEBC ] <anchor 215 232> mark @top;
+  pos base [\uniFEBD \uniFEBE \uni0636 ] <anchor 735 308> mark @top;
+  pos base [\uniFEBF \uniFEC0 ] <anchor 69 308> mark @top;
+  pos base [\uniFEC1 \uniFEC2 \uni0637 ] <anchor 515 81> mark @top;
+  pos base [\uniFEC3 \uniFEC4 ] <anchor 371 81> mark @top;
+  pos base [\uniFEC5 \uniFEC6 \uni0638 ] <anchor 500 384> mark @top;
+  pos base [\uniFEC7 \uniFEC8 ] <anchor 356 384> mark @top;
+  pos base [\uniFEC9 \uni0639 ] <anchor 232 307> mark @top;
+  pos base [\uniFECA ] <anchor 214 274> mark @top;
+  pos base [\uniFECB ] <anchor 191 307> mark @top;
+  pos base [\uniFECC ] <anchor 190 223> mark @top;
+  pos base [\uniFECD \uni063A ] <anchor 223 461> mark @top;
+  pos base [\uniFECE ] <anchor 217 409> mark @top;
+  pos base [\uniFECF ] <anchor 182 460> mark @top;
+  pos base [\uniFED0 ] <anchor 192 410> mark @top;
+  pos base [\uniFED1 \uni0641 ] <anchor 478 461> mark @top;
+  pos base [\uniFED2 ] <anchor 479 307> mark @top;
+  pos base [\uniFED3 ] <anchor 162 461> mark @top;
+  pos base [\uniFED4 \uniFB8B ] <anchor 141 307> mark @top;
+  pos base [\uniFED5 \uni0642 ] <anchor 420 307> mark @top;
+  pos base [\uniFED6 ] <anchor 471 307> mark @top;
+  pos base [\uniFED7 ] <anchor 133 461> mark @top;
+  pos base [\uniFED8 ] <anchor 133 307> mark @top;
+  pos base [\uniFED9 \uni0643 ] <anchor 384 393> mark @top;
+  pos base [\uniFEDA ] <anchor 430 393> mark @top;
+  pos base [\uniFEDB \uniFEDC ] <anchor 488 464> mark @top;
+  pos base [\uniFEDD \uni0644 ] <anchor 246 614> mark @top;
+  pos base [\uniFEDE ] <anchor 296 614> mark @top;
+  pos base [\uniFEDF \uniFEE0 ] <anchor 134 614> mark @top;
+  pos base [\uniFEE1 \uni0645 ] <anchor 199 169> mark @top;
+  pos base [\uniFEE2 ] <anchor 205 166> mark @top;
+  pos base [\uniFEF0 \uniFEF2 ] <anchor 424 154> mark @top;
+  pos base [\uniFEF1 \uniFEEF \uni0649 \uni064A ] <anchor 360 169> mark @top;
+  pos base [\uniFEF3 ] <anchor 122 307> mark @top;
+  pos base [\uniFEF4 ] <anchor 127 154> mark @top;
+  pos base [\uniFEE3 ] <anchor 202 165> mark @top;
+  pos base [\uniFEE4 ] <anchor 202 166> mark @top;
+  pos base [\uniFEE5 \uniFEE6 \uni0646 ] <anchor 377 230> mark @top;
+  pos base [\uniFEE7 ] <anchor 69 461> mark @top;
+  pos base [\uniFEE8 ] <anchor 126 307> mark @top;
+  pos base [\uniFEE9 \uni0647 ] <anchor 118 307> mark @top;
+  pos base [\uniFEEA ] <anchor 140 307> mark @top;
+  pos base [\uniFEEB ] <anchor 183 307> mark @top;
+  pos base [\uniFEEC \uniFBAC ] <anchor 173 307> mark @top;
+  pos base [\uniFEED ] <anchor 146 154> mark @top;
+  pos base [\uniFEEE ] <anchor 129 154> mark @top;
+  pos base [\uniFEAA \uniFEA9 \uni062F ] <anchor 101 230> mark @top;
+  pos base [\uniFEA8 ] <anchor 141 256> mark @top;
+  pos base [\uniFEA7 ] <anchor 131 256> mark @top;
+  pos base [\uniFEA6 \uniFEA5 \uni062E ] <anchor 172 256> mark @top;
+  pos base [\uniFEA4 \uniFEA0 ] <anchor 148 154> mark @top;
+  pos base [\uniFEA3 \uniFB7D ] <anchor 141 154> mark @top;
+  pos base [\uniFEA2 \uniFEA1 \uniFE9E \uniFE9D \uni062C \uni062D \uniFB7B ] <anchor 225 154> mark @top;
+  pos base [\uniFE9F ] <anchor 131 154> mark @top;
+  pos base [\uniFE9C ] <anchor 109 384> mark @top;
+  pos base [\uniFE9B ] <anchor 110 538> mark @top;
+  pos base [\uniFE9A \uniFE99 \uni062B ] <anchor 428 538> mark @top;
+  pos base [\uniFE98 ] <anchor 102 307> mark @top;
+  pos base [\uniFE97 ] <anchor 102 461> mark @top;
+  pos base [\uniFE96 ] <anchor 399 512> mark @top;
+  pos base [\uniFE95 \uni062A ] <anchor 378 512> mark @top;
+  pos base [\uniFE94 ] <anchor 192 307> mark @top;
+  pos base [\uniFE93 \uni0629 ] <anchor 148 307> mark @top;
+  pos base [\uniFE92 ] <anchor 125 150> mark @top;
+  pos base [\uniFE91 ] <anchor 82 307> mark @top;
+  pos base [\uniFE90 \uniFB57 ] <anchor 404 512> mark @top;
+  pos base [\uniFE8F \uni0628 \uni066E ] <anchor 378 512> mark @top;
+  pos base [\uniFE8E ] <anchor 66 614> mark @top;
+  pos base [\uniFE8D \uni0627 ] <anchor 56 614> mark @top;
+  pos base [\uniFE8C ] <anchor 129 225> mark @top;
+  pos base [\uniFE8B ] <anchor 97 430> mark @top;
+  pos base [\uniFE8A ] <anchor 312 72> mark @top;
+  pos base [\uniFE89 \uni0626 ] <anchor 360 87> mark @top;
+  pos base [\uniFE88 ] <anchor 86 614> mark @top;
+  pos base [\uniFE87 \uni0625 ] <anchor 76 614> mark @top;
+  pos base [\uniFE86 ] <anchor 126 225> mark @top;
+  pos base [\uniFE85 ] <anchor 113 225> mark @top;
+  pos base [\uniFE83 \uniFE84 \uni0623 ] <anchor 97 712> mark @top;
+  pos base [\uniFE82 \uniFE81 ] <anchor 110 742> mark @top;
+  pos base [\uniFE80 \uni0621 ] <anchor 152 307> mark @top;
+  pos base [\uniFE7F ] <anchor 72 358> mark @top;
+  pos base [\uniFE7E ] <anchor 72 768> mark @top;
+  pos base [\uniFE7D ] <anchor 97 358> mark @top;
+  pos base [\uniFE7C ] <anchor 97 768> mark @top;
+  pos base [\uniFE7B ] <anchor 128 51> mark @top;
+  pos base [\uniFE7A ] <anchor 123 -77> mark @top;
+  pos base [\uniFE79 ] <anchor 72 358> mark @top;
+  pos base [\uniFE78 ] <anchor 72 778> mark @top;
+  pos base [\uniFE77 ] <anchor 123 333> mark @top;
+  pos base [\uniFE76 ] <anchor 123 742> mark @top;
+  pos base [\uniFE74 ] <anchor 123 -51> mark @top;
+  pos base [\uniFE73 ] <anchor 84 189> mark @top;
+  pos base [\uniFE72 ] <anchor 97 778> mark @top;
+  pos base [\uniFE71 ] <anchor 123 358> mark @top;
+  pos base [\uniFE70 ] <anchor 123 768> mark @top;
+  pos base [\uni0622 ] <anchor 133 742> mark @top;
+  pos base [\uni0624 ] <anchor 138 225> mark @top;
+  pos base [\uni0631 ] <anchor 84 154> mark @top;
+  pos base [\uni0632 ] <anchor 116 307> mark @top;
+  pos base [\uni0640 ] <anchor 113 51> mark @top;
+  pos base [\uni0648 ] <anchor 149 154> mark @top;
+  pos base [\uni066F ] <anchor 91 226> mark @top;
+  pos base [\uni0679 ] <anchor 414 614> mark @top;
+  pos base [\uni067E ] <anchor 384 512> mark @top;
+  pos base [\uni0686 ] <anchor 230 154> mark @top;
+  pos base [\uni0688 ] <anchor 158 512> mark @top;
+  pos base [\uni0691 ] <anchor 144 410> mark @top;
+  pos base [\uni0698 ] <anchor 157 358> mark @top;
+  pos base [\uni06A1 ] <anchor 502 307> mark @top;
+  pos base [\uni06A4 ] <anchor 443 538> mark @top;
+  pos base [\uni06A9 \uniFB8F ] <anchor 570 464> mark @top;
+  pos base [\uni06BA ] <anchor 384 102> mark @top;
+  pos base [\uni06BE ] <anchor 176 307> mark @top;
+  pos base [\uni06C1 ] <anchor 154 307> mark @top;
+  pos base [\uni06C2 ] <anchor 203 225> mark @top;
+  pos base [\uni06C3 ] <anchor 179 307> mark @top;
+  pos base [\uni06CC ] <anchor 384 169> mark @top;
+  pos base [\uni06AF ] <anchor 506 523> mark @top;
+  pos base [\uni0671 ] <anchor 113 768> mark @top;
+  pos base [\uniFB51 ] <anchor 108 768> mark @top;
+  pos base [\uniFB58 ] <anchor 76 307> mark @top;
+  pos base [\uniFB59 ] <anchor 111 154> mark @top;
+  pos base [\uniFB67 ] <anchor 410 512> mark @top;
+  pos base [\uniFB68 ] <anchor 98 614> mark @top;
+  pos base [\uniFB69 ] <anchor 118 410> mark @top;
+  pos base [\uniFB6B ] <anchor 499 358> mark @top;
+  pos base [\uniFB6C ] <anchor 157 512> mark @top;
+  pos base [\uniFB6D ] <anchor 139 358> mark @top;
+  pos base [\uniFB7C ] <anchor 136 154> mark @top;
+  pos base [\uniFB89 ] <anchor 122 512> mark @top;
+  pos base [\uniFB8D ] <anchor 134 358> mark @top;
+  pos base [\uniFB90 ] <anchor 472 464> mark @top;
+  pos base [\uniFB91 ] <anchor 454 464> mark @top;
+  pos base [\uniFB93 ] <anchor 536 523> mark @top;
+  pos base [\uniFB94 ] <anchor 450 523> mark @top;
+  pos base [\uniFB95 ] <anchor 438 523> mark @top;
+  pos base [\uniFB9F ] <anchor 399 102> mark @top;
+  pos base [\uniFBAB ] <anchor 141 307> mark @top;
+  pos base [\uniFBAD ] <anchor 207 307> mark @top;
+} top_mark;
+
+lookup bottom_mkmk {
+  lookupflag RightToLeft;
+  markClass [\uni064D ] <anchor 123 -92> @bottom_mark;
+  markClass [\uni0650 ] <anchor 123 -118> @bottom_mark;
+  markClass [\uni0655 ] <anchor 97 -61> @bottom_mark;
+  markClass [\uni0656 ] <anchor 41 573> @bottom_mark;
+  pos mark [\uni064D ] <anchor 123 -277> mark @bottom_mark;
+  pos mark [\uni0650 ] <anchor 123 -251> mark @bottom_mark;
+  pos mark [\uni0655 ] <anchor 97 -297> mark @bottom_mark;
+  pos mark [\uni0656 ] <anchor 41 312> mark @bottom_mark;
+} bottom_mkmk;
+
+lookup top_mkmk {
+  lookupflag RightToLeft;
+  markClass [\uni0615 ] <anchor 122 451> @top_mark;
+  markClass [\uni064B ] <anchor 123 502> @top_mark;
+  markClass [\uni064C ] <anchor 97 502> @top_mark;
+  markClass [\uni064E ] <anchor 123 527> @top_mark;
+  markClass [\uni064F \uni0652 ] <anchor 72 502> @top_mark;
+  markClass [\uni0651 ] <anchor 97 502> @top_mark;
+  markClass [\uni0653 ] <anchor 110 502> @top_mark;
+  markClass [\uni0654 ] <anchor 97 451> @top_mark;
+  markClass [\uni0658 ] <anchor 119 480> @top_mark;
+  markClass [\uni0670 ] <anchor 41 425> @top_mark;
+  pos mark [\uni0615 ] <anchor 122 737> mark @top_mark;
+  pos mark [\uni064B ] <anchor 123 686> mark @top_mark;
+  pos mark [\uni064C \uni0651 \uni0654 ] <anchor 97 686> mark @top_mark;
+  pos mark [\uni064E ] <anchor 123 661> mark @top_mark;
+  pos mark [\uni064F \uni0652 ] <anchor 72 686> mark @top_mark;
+  pos mark [\uni0653 ] <anchor 110 686> mark @top_mark;
+  pos mark [\uni0658 ] <anchor 119 686> mark @top_mark;
+  pos mark [\uni0670 ] <anchor 41 686> mark @top_mark;
+} top_mkmk;
+
 lookup KERNING {
   lookupflag 0;
     pos \exclam \semicolon -64;
@@ -11098,6 +11500,48 @@ lookup KERNING {
     pos \questiondown \threequarters -29;
 } KERNING;
 
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup bottom_mark_lig;
+      lookup top_mark_lig;
+      lookup bottom_mark;
+      lookup top_mark;
+
+ script arab;
+     language dflt ;
+      lookup bottom_mark_lig;
+      lookup top_mark_lig;
+      lookup bottom_mark;
+      lookup top_mark;
+
+ script latn;
+     language dflt ;
+      lookup bottom_mark_lig;
+      lookup top_mark_lig;
+      lookup bottom_mark;
+      lookup top_mark;
+} mark;
+
+feature mkmk {
+
+ script DFLT;
+     language dflt ;
+      lookup bottom_mkmk;
+      lookup top_mkmk;
+
+ script arab;
+     language dflt ;
+      lookup bottom_mkmk;
+      lookup top_mkmk;
+
+ script latn;
+     language dflt ;
+      lookup bottom_mkmk;
+      lookup top_mkmk;
+} mkmk;
+
 feature kern {
 
  script DFLT;
@@ -11151,27 +11595,25 @@ feature kern {
 	\uniFE91 \uniFE90 \uniFE8F \uniFE8E \uniFE8D \uniFE8C \uniFE8B \uniFE8A \uniFE89 
 	\uniFE88 \uniFE87 \uniFE86 \uniFE85 \uniFE83 \uniFE82 \uniFE81 \uniFE80 \uniFE84 
 	\uniFE7F \uniFE7E \uniFE7D \uniFE7C \uniFE7B \uniFE7A \uniFE79 \uniFE78 \uniFE77 
-	\uniFE76 \uniFE74 \uniFE73 \uniFE72 \uniFE71 \uniFE70 \uni060C \uni060D \uni0615 
-	\uni061B \uni061F \uni0621 \uni0622 \uni0623 \uni0624 \uni0625 \uni0626 \uni0627 
-	\uni0628 \uni0629 \uni062A \uni062B \uni062C \uni062D \uni062E \uni062F \uni0630 
-	\uni0631 \uni0632 \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 \uni0638 \uni0639 
-	\uni063A \uni0640 \uni0641 \uni0642 \uni0643 \uni0644 \uni0645 \uni0646 \uni0647 
-	\uni0648 \uni0649 \uni064A \uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 
-	\uni0651 \uni0652 \uni0653 \uni0654 \uni0655 \uni0656 \uni0658 \uni0660 \uni0661 
-	\uni0662 \uni0663 \uni0664 \uni0665 \uni0666 \uni0667 \uni0668 \uni0669 \uni066A 
-	\uni066B \uni066C \uni066D \uni066E \uni066F \uni0670 \uni0679 \uni067E \uni0686 
-	\uni0688 \uni0691 \uni0698 \uni06A1 \uni06A4 \uni06A9 \uni06BA \uni06BE \uni06C1 
-	\uni06C2 \uni06C3 \uni06CC \uni06D4 \uni00A0 \uni2070 \uni2071 \uni2074 \uni2075 
-	\uni2076 \uni2077 \uni2078 \uni2079 \uni207B \uni207C \uni207D \uni207E \uni207F 
-	\uni2080 \uni2081 \uni2082 \uni2083 \uni2084 \uni2085 \uni2086 \uni2087 \uni2088 
-	\uni2089 \uni208A \uni208B \uni208C \uni208D \uni208E \uni2090 \uni2091 \uni2092 
-	\uni2093 \uni2094 \uni2095 \uni2096 \uni2097 \uni2098 \uni2099 \uni209A \uni209B 
-	\uni209C \uni207A \uni00B9 \uni00B2 \uni00B3 \uni0002 \Agrave \Aacute 
-	\Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
-	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
-	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
-	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
-	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\uniFE76 \uniFE74 \uniFE73 \uniFE72 \uniFE71 \uniFE70 \uni060C \uni060D \uni061B 
+	\uni061F \uni0621 \uni0622 \uni0623 \uni0624 \uni0625 \uni0626 \uni0627 \uni0628 
+	\uni0629 \uni062A \uni062B \uni062C \uni062D \uni062E \uni062F \uni0630 \uni0631 
+	\uni0632 \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 \uni0638 \uni0639 \uni063A 
+	\uni0640 \uni0641 \uni0642 \uni0643 \uni0644 \uni0645 \uni0646 \uni0647 \uni0648 
+	\uni0649 \uni064A \uni0660 \uni0661 \uni0662 \uni0663 \uni0664 \uni0665 \uni0666 
+	\uni0667 \uni0668 \uni0669 \uni066A \uni066B \uni066C \uni066D \uni066E \uni066F 
+	\uni0679 \uni067E \uni0686 \uni0688 \uni0691 \uni0698 \uni06A1 \uni06A4 \uni06A9 
+	\uni06BA \uni06BE \uni06C1 \uni06C2 \uni06C3 \uni06CC \uni06D4 \uni00A0 \uni2070 
+	\uni2071 \uni2074 \uni2075 \uni2076 \uni2077 \uni2078 \uni2079 \uni207B \uni207C 
+	\uni207D \uni207E \uni207F \uni2080 \uni2081 \uni2082 \uni2083 \uni2084 \uni2085 
+	\uni2086 \uni2087 \uni2088 \uni2089 \uni208A \uni208B \uni208C \uni208D \uni208E 
+	\uni2090 \uni2091 \uni2092 \uni2093 \uni2094 \uni2095 \uni2096 \uni2097 \uni2098 
+	\uni2099 \uni209A \uni209B \uni209C \uni207A \uni00B9 \uni00B2 \uni00B3 \uni0002 
+	\Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave 
+	\Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth 
+	\Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash 
+	\Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave 
+	\aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
 	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
 	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
 	\ucircumflex \udieresis \yacute \thorn \ydieresis \exclamdown \cent \currency 
@@ -11186,9 +11628,11 @@ feature kern {
 	\emdash \quoteleft \quoteright \quotesinglbase \quotedblbase \bullet \ellipsis 
 	\perthousand \guilsinglleft \guilsinglright \fraction \Euro \Omega \trademark 
 	\radical \infinity \approxequal \notequal \lessequal \greaterequal ];
+@GDEF_Mark = [\uni0615 \uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 
+	\uni0651 \uni0652 \uni0653 \uni0654 \uni0655 \uni0656 \uni0658 \uni0670 ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
 
 } GDEF;
 

@@ -2,6 +2,8 @@
 <glyph name="uniFEE0" format="2">
   <advance width="251"/>
   <unicode hex="FEE0"/>
+  <anchor x="146" y="0" name="bottom"/>
+  <anchor x="133.5" y="614" name="top"/>
   <outline>
     <contour>
       <point x="130" y="614" type="curve" smooth="yes"/>

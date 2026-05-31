@@ -62,7 +62,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 - [x] **Arabic Character Set** (Arabic)
 - [x] **Arabic Character Set Forms-A** (Arabic Presentation Forms-A)
 - [x] **Arabic Character Set Forms-B** (Arabic Presentation Forms-B)
-- [ ] **Currency Character Set** (Currency Symbols)
+- [x] **Currency Character Set** (Currency Symbols)
 - [x] **Superscripts and Subscripts** (Superscripts and Subscripts)
 - [x] **General Punctuation** (General Punctuation)
 - [x] **Mathematical Operators** (Mathematical Operators)
@@ -70,7 +70,7 @@ To assist with glyph manipulation and analysis, we use the [FontGlyphExtractor](
 
 ### Phase 2: Refinement & Production (WIP)
 
-- [ ] **OpenType Feature Programming**
+- [x] **OpenType Feature Programming**
 - [x] **Tifinagh Kerning**
 - [x] **Arabic Kerning**
 - [x] **Latin Kerning**
@@ -173,6 +173,7 @@ This font draws inspiration from numerous open-source and community-driven proje
 - **Various open-source Maghribi and Tifinagh fonts** in the inspirations folder that helped shape our understanding of North African scripts
 
 - **Academic researchers** whose work like "Tifinagh & the IRCAM, Explorations in Cursiveness and Bicamelarism in the Tifinagh script" (available via Academia.edu) provided crucial context
+- **fontamin** for the [AutoMark script](https://github.com/fontamin/AutoMark), which automatically added OpenType GPOS lookups for Arabic diacritic positioning (mark and mkmk features).
 
 ---
 

@@ -2,6 +2,8 @@
 <glyph name="uniFEDE" format="2">
   <advance width="542"/>
   <unicode hex="FEDE"/>
+  <anchor x="264" y="-324" name="bottom"/>
+  <anchor x="296" y="614" name="top"/>
   <outline>
     <contour>
       <point x="432" y="614" type="curve" smooth="yes"/>

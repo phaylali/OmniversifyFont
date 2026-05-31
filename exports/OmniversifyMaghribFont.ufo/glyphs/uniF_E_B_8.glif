@@ -2,6 +2,8 @@
 <glyph name="uniFEB8" format="2">
   <advance width="432"/>
   <unicode hex="FEB8"/>
+  <anchor x="226" y="0" name="bottom"/>
+  <anchor x="237.793" y="307" name="top"/>
   <outline>
     <contour>
       <point x="238" y="307" type="curve"/>

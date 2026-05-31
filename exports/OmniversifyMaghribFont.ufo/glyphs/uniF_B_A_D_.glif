@@ -2,6 +2,8 @@
 <glyph name="uniFBAD" format="2">
   <advance width="421"/>
   <unicode hex="FBAD"/>
+  <anchor x="199.521" y="-30.9654" name="bottom"/>
+  <anchor x="207" y="307" name="top"/>
   <outline>
     <contour>
       <point x="153" y="307" type="curve" smooth="yes"/>

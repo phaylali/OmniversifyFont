@@ -2,6 +2,8 @@
 <glyph name="uniFEEA" format="2">
   <advance width="251"/>
   <unicode hex="FEEA"/>
+  <anchor x="140" y="0" name="bottom"/>
+  <anchor x="140" y="307" name="top"/>
   <outline>
     <contour>
       <point x="144" y="307" type="curve"/>

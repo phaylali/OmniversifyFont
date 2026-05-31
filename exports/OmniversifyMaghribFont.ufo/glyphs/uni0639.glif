@@ -2,6 +2,8 @@
 <glyph name="uni0639" format="2">
   <advance width="378"/>
   <unicode hex="0639"/>
+  <anchor x="353.5" y="-407.5" name="bottom"/>
+  <anchor x="232" y="307" name="top"/>
   <outline>
     <contour>
       <point x="233" y="307" type="curve"/>

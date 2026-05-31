@@ -2,6 +2,10 @@
 <glyph name="uniFEFA" format="2">
   <advance width="556"/>
   <unicode hex="FEFA"/>
+  <anchor x="97.1755" y="-97.5244" name="bottom_lig"/>
+  <anchor x="492" y="-179.444" name="bottom_lig"/>
+  <anchor x="106" y="614" name="top_lig"/>
+  <anchor x="492" y="614" name="top_lig"/>
   <outline>
     <contour>
       <point x="493" y="614" type="line" smooth="yes"/>

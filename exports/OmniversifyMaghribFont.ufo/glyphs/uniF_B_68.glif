@@ -2,6 +2,8 @@
 <glyph name="uniFB68" format="2">
   <advance width="245"/>
   <unicode hex="FB68"/>
+  <anchor x="98" y="0" name="bottom"/>
+  <anchor x="97.5" y="614" name="top"/>
   <outline>
     <contour>
       <point x="130" y="614" type="curve"/>
