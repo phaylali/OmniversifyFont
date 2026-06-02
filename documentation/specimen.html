@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OmniversifyMaghribFont — Specimen</title>
+<style>
+  @font-face {
+    font-family: 'OmniversifyMaghribFont';
+    src: url('../exports/OmniversifyMaghribFont-hinted.ttf') format('truetype');
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'OmniversifyMaghribFont', serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #faf8f5;
+    padding: 0;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm 25mm;
+    margin: 0 auto;
+    background: #fff;
+    page-break-after: always;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  @media print {
+    .page { box-shadow: none; margin: 0; padding: 20mm 25mm; }
+    body { background: #fff; }
+  }
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 257mm;
+  }
+  .cover h1 { font-size: 42pt; margin-bottom: 8pt; letter-spacing: 2pt; }
+  .cover h2 { font-size: 18pt; font-weight: normal; opacity: 0.7; margin-bottom: 20pt; }
+  .cover .scripts { font-size: 28pt; margin: 30pt 0; line-height: 2; }
+  .cover .info { font-size: 11pt; opacity: 0.6; margin-top: 40pt; }
+
+  h2.section-title {
+    font-size: 24pt;
+    border-bottom: 2px solid #c9a96e;
+    padding-bottom: 6pt;
+    margin-bottom: 16pt;
+    margin-top: 10pt;
+    color: #8b6914;
+  }
+  h2.section-title .sub {
+    font-size: 12pt;
+    font-weight: normal;
+    opacity: 0.5;
+    margin-left: 10pt;
+  }
+  h3 { font-size: 16pt; margin: 14pt 0 8pt; color: #555; }
+
+  .glyph-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2pt;
+    margin: 10pt 0 20pt;
+  }
+  .glyph-grid .cell {
+    width: 28pt;
+    height: 32pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5pt solid #ddd;
+    font-size: 14pt;
+    background: #fefefe;
+  }
+  .glyph-grid .cell .code {
+    font-size: 5pt;
+    opacity: 0.5;
+    font-family: monospace;
+  }
+
+  .sample-text {
+    font-size: 18pt;
+    line-height: 1.8;
+    margin: 12pt 0 20pt;
+    padding: 14pt 16pt;
+    background: #f8f6f2;
+    border-left: 4px solid #c9a96e;
+    direction: auto;
+    word-break: break-word;
+  }
+  .sample-text.rtl {
+    direction: rtl;
+  }
+  .sample-text.large { font-size: 26pt; }
+  .sample-text.small { font-size: 12pt; }
+
+  .meta-table { width: 100%; border-collapse: collapse; margin: 12pt 0; }
+  .meta-table td { padding: 4pt 10pt; border-bottom: 0.5pt solid #eee; }
+  .meta-table td:first-child { font-weight: bold; width: 160pt; opacity: 0.6; }
+
+  .grid-label { font-size: 10pt; color: #666; margin: 20pt 0 4pt; font-weight: bold; }
+
+  .charset-block {
+    margin: 20pt 0;
+    padding: 12pt 14pt;
+    background: #fafaf8;
+    border: 0.5pt solid #e0dcd6;
+    font-size: 14pt;
+    line-height: 2;
+    word-break: break-all;
+  }
+  .charset-block .label {
+    font-size: 9pt;
+    font-family: monospace;
+    color: #999;
+    display: block;
+    margin-bottom: 2pt;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="cover">
+    <h1>Omniversify<br>MaghribFont</h1>
+    <h2>A Multilingual Typeface for Latin · Arabic · Tifinagh</h2>
+    <div class="scripts">
+      <div>ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+      <div style="direction:rtl">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+      <div>ⴰⵎⴰⵣⵉⵖ ⵏ ⵡⴰⵏⴰⵣ</div>
+    </div>
+    <div class="info">
+      Version 2.000 · SIL Open Font License 1.1<br>
+      OmniversifyFont — The Font For Every Moroccan
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <h2 class="section-title">Latin Script <span class="sub">C0 Controls &amp; Basic Latin + Latin-1 Supplement</span></h2>
+  <p style="margin-bottom:10pt; opacity:0.7; font-size:10pt;">
+    191 glyphs covering ASCII and Latin-1 Supplement (U+0020–U+00FF).
+  </p>
+
+  <h3>Character Set</h3>
+  <div class="glyph-grid" id="latin-grid"></div>
+
+  <h3>Sample Text</h3>
+  <div class="sample-text large">
+    Hamburgergefäß ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+    abcdefghijklmnopqrstuvwxyz 0123456789
+  </div>
+  <div class="sample-text">
+    The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.<br>
+    How vexingly quick daft zebras jump! The five boxing wizards jump quickly.
+  </div>
+  <div class="sample-text small">
+    OmniversifyFont is a modern multilingual typeface designed to bridge cultures and scripts. It combines Latin, Arabic (Moroccan/Maghrebi script), and Tamazight (Tifinagh script) into a cohesive, high-performance font family. Inspired by the rich architectural and calligraphic heritage of Morocco, it brings a "Moroccan Luxury" aesthetic to digital typography.
+  </div>
+
+  <h3>All Latin Characters</h3>
+  <div class="charset-block" id="latin-charset"></div>
+</div>
+
+<div class="page">
+  <h2 class="section-title">Arabic / Maghrebi Script <span class="sub">Arabic + Presentation Forms A/B</span></h2>
+  <p style="margin-bottom:10pt; opacity:0.7; font-size:10pt;">
+    266 glyphs covering Arabic (U+0600–U+06FF), Arabic Presentation Forms-A (U+FB50–U+FDFF), and Arabic Presentation Forms-B (U+FE70–U+FEFE).
+  </p>
+
+  <h3>Character Set</h3>
+  <div class="charset-block" dir="rtl" id="arabic-charset-main"></div>
+
+  <h3>Sample Text</h3>
+  <div class="sample-text rtl large" dir="rtl">
+    بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+  </div>
+  <div class="sample-text rtl" dir="rtl">
+    الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَٰنِ الرَّحِيمِ مَالِكِ يَوْمِ الدِّينِ
+  </div>
+  <div class="sample-text rtl" dir="rtl" style="font-size:14pt;">
+    الخط المغربي يتميز بالاستدارة والجمال، وهو أحد الخطوط العربية الأصيلة التي تزين المخطوطات والكتب الإسلامية في بلاد المغرب العربي. يتميز بطابعه الخاص الذي يجمع بين الأصالة والمعاصرة.
+  </div>
+
+  <h3>All Arabic Characters</h3>
+  <div class="charset-block" dir="rtl" id="arabic-charset-full"></div>
+</div>
+
+<div class="page">
+  <h2 class="section-title">Tifinagh Script <span class="sub">Tifinagh (U+2D30–U+2D7F)</span></h2>
+  <p style="margin-bottom:10pt; opacity:0.7; font-size:10pt;">
+    59 glyphs covering the Tifinagh Unicode block, honoring the ancestral script of North Africa.
+  </p>
+
+  <h3>Character Set</h3>
+  <div class="glyph-grid" id="tifinagh-grid"></div>
+
+  <h3>Sample Text</h3>
+  <div class="sample-text large" id="tifinagh-sample-1"></div>
+  <div class="sample-text" id="tifinagh-sample-2"></div>
+  <div class="sample-text small" id="tifinagh-sample-3"></div>
+
+  <h3>All Tifinagh Characters</h3>
+  <div class="charset-block" id="tifinagh-charset"></div>
+</div>
+
+<div class="page">
+  <h2 class="section-title">Font Information</h2>
+
+  <table class="meta-table">
+    <tr><td>Font Family</td><td>OmniversifyMaghribFont</td></tr>
+    <tr><td>Version</td><td>2.000</td></tr>
+    <tr><td>Weight</td><td>Regular</td></tr>
+    <tr><td>Glyph Count</td><td>580+ (191 Latin · 266 Arabic · 59 Tifinagh + symbols)</td></tr>
+    <tr><td>Unicode Blocks</td><td>C0 Controls, Latin-1, Arabic, Arabic PFA/B, Tifinagh, Currency, Superscripts/Subscripts, General Punctuation, Mathematical Operators, Letterlike Symbols</td></tr>
+    <tr><td>OpenType Features</td><td>GPOS mark, mkmk (Arabic diacritics), kerning (Latin, Arabic, Tifinagh)</td></tr>
+    <tr><td>Hinting</td><td>Auto-hinted via ttfautohint</td></tr>
+    <tr><td>License</td><td>SIL Open Font License 1.1</td></tr>
+    <tr><td>Design Tools</td><td>FontForge, Inkscape</td></tr>
+    <tr><td>Made by</td><td>Moroccans, for the Omniverse</td></tr>
+  </table>
+
+  <h3>Mixed Script Sample</h3>
+  <div class="sample-text" style="font-size:16pt;">
+    OmniversifyFont ⵣ  دعم للغات المتعددة — The font for every Moroccan.
+  </div>
+  <div class="sample-text rtl" dir="rtl" style="font-size:16pt;">
+    ⵜⴰⵎⴰⵣⵉⵖⵜ ⴷ ⵍⵄⵕⴰⴱⵉⵢⵢⴰ ⴷ ⵍⴰⵜⵉⵏⵉⵢⵢⴰ — ثلاث لغات في خط واحد
+  </div>
+
+  <div style="margin-top:40pt; text-align:center; opacity:0.4; font-size:10pt;">
+    OmniversifyFont &copy; 2026 Omniversify — SIL OFL 1.1
+  </div>
+</div>
+
+<script>
+const latinChars = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\u00A0\u00A1\u00A2\u00A3\u00A4\u00A5\u00A6\u00A7\u00A8\u00A9\u00AA\u00AB\u00AC\u00AD\u00AE\u00AF\u00B0\u00B1\u00B2\u00B3\u00B4\u00B5\u00B6\u00B7\u00B8\u00B9\u00BA\u00BB\u00BC\u00BD\u00BE\u00BF\u00C0\u00C1\u00C2\u00C3\u00C4\u00C5\u00C6\u00C7\u00C8\u00C9\u00CA\u00CB\u00CC\u00CD\u00CE\u00CF\u00D0\u00D1\u00D2\u00D3\u00D4\u00D5\u00D6\u00D7\u00D8\u00D9\u00DA\u00DB\u00DC\u00DD\u00DE\u00DF\u00E0\u00E1\u00E2\u00E3\u00E4\u00E5\u00E6\u00E7\u00E8\u00E9\u00EA\u00EB\u00EC\u00ED\u00EE\u00EF\u00F0\u00F1\u00F2\u00F3\u00F4\u00F5\u00F6\u00F7\u00F8\u00F9\u00FA\u00FB\u00FC\u00FD\u00FE\u00FF';
+
+const tifinaghChars = '\u2D30\u2D31\u2D32\u2D33\u2D34\u2D35\u2D36\u2D37\u2D38\u2D39\u2D3A\u2D3B\u2D3C\u2D3D\u2D3E\u2D3F\u2D40\u2D41\u2D42\u2D43\u2D44\u2D45\u2D46\u2D47\u2D48\u2D49\u2D4A\u2D4B\u2D4C\u2D4D\u2D4E\u2D4F\u2D50\u2D51\u2D52\u2D53\u2D54\u2D55\u2D56\u2D57\u2D58\u2D59\u2D5A\u2D5B\u2D5C\u2D5D\u2D5E\u2D5F\u2D60\u2D61\u2D62\u2D63\u2D64\u2D65\u2D66\u2D67\u2D6F\u2D70\u2D7F';
+
+const arabicChars = '،؍ؕ؛؟ءآأؤإئابةتثجحخدذرزسشصضطظعغـفقكلمنهوىيًٌٍَُِّْٕٖٓٔ٘٠١٢٣٤٥٦٧٨٩٪٫٬٭ٮٯٰٱٹپچڈڑژڡڤکگںھہۂۃی۔ﭑﭗﭘﭙﭧﭨﭩﭫﭬﭭﭻﭼﭽﮉﮋﮍﮏﮐﮑﮓﮔﮕﮟﮫﮬﮭ﮲﮳﮴﮵﮶﮷﮸﮹﮽﮾ﹰﹱﹲﹳﹴﹶﹷﹸﹹﹺﹻﹼﹽﹾﹿﺀﺁﺂﺃﺄﺅﺆﺇﺈﺉﺊﺋﺌﺍﺎﺏﺐﺑﺒﺓﺔﺕﺖﺗﺘﺙﺚﺛﺜﺝﺞﺟﺠﺡﺢﺣﺤﺥﺦﺧﺨﺩﺪﺫﺬﺭﺮﺯﺰﺱﺲﺳﺴﺵﺶﺷﺸﺹﺺﺻﺼﺽﺾﺿﻀﻁﻂﻃﻄﻅﻆﻇﻈﻉﻊﻋﻌﻍﻎﻏﻐﻑﻒﻓﻔﻕﻖﻗﻘﻙﻚﻛﻜﻝﻞﻟﻠﻡﻢﻣﻤﻥﻦﻧﻨﻩﻪﻫﻬﻭﻮﻯﻰﻱﻲﻳﻴﻵﻶﻷﻸﻹﻺﻻﻼ';
+
+const arabicMain = '،؍ؕ؛؟ءآأؤإئابةتثجحخدذرزسشصضطظعغـفقكلمنهوىيًٌٍَُِّْٕٖٓٔ٘٠١٢٣٤٥٦٧٨٩٪٫٬٭ٮٯٰٱٹپچڈڑژڡڤکگںھہۂۃی۔';
+
+const tifinaghGrid = document.getElementById('tifinagh-grid');
+for (const ch of tifinaghChars) {
+  const cell = document.createElement('div');
+  cell.className = 'cell';
+  cell.innerHTML = `<span>${ch}</span><span class="code">U+${ch.charCodeAt(0).toString(16).toUpperCase()}</span>`;
+  tifinaghGrid.appendChild(cell);
+}
+
+const latinGrid = document.getElementById('latin-grid');
+for (const ch of latinChars) {
+  const cell = document.createElement('div');
+  cell.className = 'cell';
+  const code = ch.charCodeAt(0);
+  cell.innerHTML = `<span>${ch === ' ' ? '\u2423' : ch}</span><span class="code">${code.toString(16).toUpperCase()}</span>`;
+  latinGrid.appendChild(cell);
+}
+
+document.getElementById('latin-charset').textContent = latinChars;
+document.getElementById('tifinagh-charset').textContent = tifinaghChars;
+document.getElementById('arabic-charset-main').textContent = arabicMain;
+document.getElementById('arabic-charset-full').textContent = arabicChars;
+
+document.getElementById('tifinagh-sample-1').textContent = 'ⴰⵎⴰⵣⵉⵖ ⵏ ⵡⴰⵏⴰⵣ';
+document.getElementById('tifinagh-sample-2').textContent = 'ⵜⴰⵎⴰⵣⵉⵖⵜ ⴷ ⵜⵉⴼⵉⵏⴰⵖ ⴷ ⵍⴰⵜⵉⵏⵉⵢⵢⴰ';
+document.getElementById('tifinagh-sample-3').textContent = 'ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵎⴰⵣⵉⵖⵜ ⴷ ⵍⴰⵜⵉⵏⵉⵢⵢⴰ ⵏ ⵡⴰⵏⴰⵣ ⵏ ⵎⴷⴷⵏ ⵙⵍⴰⵡⵏⵏ ⴷ ⵍⴰⵜⵉⵏⵉⵢⵢⴰ';
+</script>
+</body>
+</html>
